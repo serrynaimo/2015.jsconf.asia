@@ -76,5 +76,5 @@ $(document).ready(function() {
     	if(!$("#subscribeForm").hasClass("selected")) {
 		    $("#subscribeForm input[type='text']").select();
 		}
-	}, 6000);
+	}, 9000);
 });

@@ -11,7 +11,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2015</title>
-	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:200,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/app.css" />
 	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
@@ -39,6 +39,11 @@
 		</g>
 		</svg></a></div>
         <div class="overlay"></div>
+        <div class="years">
+            <a href="http://2014.jsconf.asia" class="year2014">2014</a>
+            <a href="http://2013.jsconf.asia" class="year2013">2013</a>
+            <a href="http://2012.jsconf.asia" class="year2012">2012</a>
+        </div>
         <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
             <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="e-mail address for updates" /><input type="submit" value="Subscribe" /></span></div>
             <div class="msg"><span></span></div>
