@@ -203,13 +203,13 @@ body > h1 {
     }
 }
 @-moz-keyframes comein {
-    0% {
+    0%, 40% {
         opacity: 0;
         -moz-transform: translateY(200px);
     }
 }
 @keyframes comein {
-    0% {
+    0%, 40% {
         opacity: 0;
         transform: translateY(200px);
     }
