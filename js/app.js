@@ -43,23 +43,26 @@ $("#subscribeForm .msg").click(function() {
 	$("#subscribeForm input[name='email']").focus();
 });
 
-var change = function(e, elem) {
-	if(e.which || $(elem).val() !== "") {
-    	$("#subscribeForm input[name='email']").attr("placeholder","E-Mail");
-        $("#subscribeForm input[name='fname']").attr("placeholder","First name");
+var change = function(e) {
+    var a = $("#subscribeForm input[name='fname']");
+    var b = $("#subscribeForm input[name='email']");
+    
+	if(e.which || a.val() !== "" || b.val() !== "") {
+    	b.attr("placeholder","E-Mail");
+        a.attr("placeholder","First name");
 	}
 	else {
-    	$("#subscribeForm input[name='fname']").attr("placeholder","Enter your first name and");
-        $("#subscribeForm input[name='email']").attr("placeholder","e-mail address for updates");
+    	a.attr("placeholder","Enter your first name and");
+        b.attr("placeholder","e-mail address for updates");
 	}
 };
 
 $("#subscribeForm input").focus(function(e) {
 	$("#subscribeForm").addClass("selected");
-	change(e, this);
+	change(e);
 }).blur(function(e) {
 	$("#subscribeForm").removeClass("selected");
-	change(e, this);
+	change(e);
 }).keydown(change);
 
 $("#subscribeForm").hover(function() {
@@ -70,6 +73,8 @@ $("#subscribeForm").hover(function() {
 
 $(document).ready(function() {
 	setTimeout(function() {
-		$("#subscribeForm input[type='text']").select();
+    	if(!$("#subscribeForm").hasClass("selected")) {
+		    $("#subscribeForm input[type='text']").select();
+		}
 	}, 6000);
 });
