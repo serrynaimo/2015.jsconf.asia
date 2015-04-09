@@ -1,0 +1,241 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow-x: hidden;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  position: relative;
+}
+
+body > h1 {
+	position: absolute;
+    left: -200px;
+	user-select: none;
+}
+
+#intro {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  min-height: 550px;
+  background-image: linear-gradient(top, rgba(45,45,45,1) 0%, rgba(0,0,0,0) 20%);
+  background-image: -moz-linear-gradient(top, rgba(45,45,45,1) 0%, rgba(0,0,0,0) 20%);
+  background-image: -webkit-linear-gradient(top, rgba(45,45,45,1) 0%, rgba(0,0,0,0) 20%);
+}
+
+#intro a {
+	color: #56AAEB;
+	text-decoration: none;
+}
+#intro a:hover {
+	color: #9AE0FF;
+}
+
+#intro .js {
+    position: absolute;
+    left: 50%;
+	top: 55%;
+	height: 300px;
+	width: 300px;
+	margin: -150px;
+    -webkit-animation: comein 4s ease-out 1;
+    -moz-animation: comein 4s ease-out 1;
+    animation: comein 4s ease-out 1;
+}
+
+#intro .logo {
+	display: block;
+	height: 300px;
+	width: 300px;
+    border-radius: 3px;
+}
+
+@-webkit-keyframes comein {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(200px);
+    }
+}
+
+@-moz-keyframes comein {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(200px);
+    }
+}
+
+@keyframes comein {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+}
+
+#intro .overlay {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: radial-gradient(50% 0%, rgba(0,0,0,.3) 0%, rgba(0,0,0,1) 35%);
+    background-image: -moz-radial-gradient(50% 0%, rgba(0,0,0,.3) 0%, rgba(0,0,0,1) 35%);
+    background-image: -webkit-radial-gradient(50% 0%, rgba(0,0,0,.3) 0%, rgba(0,0,0,1) 35%);
+}
+
+
+#subscribeForm {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+	width: 500px;
+	height: 40px;
+	margin: 0 -250px;
+	display: block;
+    text-align: center;
+    -webkit-perspective: 500;
+    -moz-perspective: 500;
+    perspective: 500;
+}
+
+#subscribeForm .input {
+    -webkit-transform: translateZ(-20px);
+    -webkit-transition: all .2s ease-out;
+    -moz-transform: translateZ(-20px);
+    -moz-transition: all .2s ease-out;
+    transform: translateZ(-20px);
+    transition: all .2s ease-out;
+    opacity: .4;
+}
+
+#subscribeForm.hovered .input, #subscribeForm.selected .input, #subscribeForm.load .input, #subscribeForm.failure .input {
+    -webkit-transform: translateZ(-1px) translateY(0);
+    -moz-transform: translateZ(-1px) translateY(0);
+    transform: translateZ(-1px) translateY(0);
+    opacity: 1;
+}
+
+#subscribeForm.load .input, #subscribeForm.success .input {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+    opacity: 0;
+}
+
+
+#subscribeForm .input input {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px;
+  padding: 0 0 0 12px;
+  font-family: 'Doppio One';
+  border: 0;
+  outline: 0;
+  width: 204px;
+  height: 40px;
+  border-radius: 0;
+  background: #000;
+  border-bottom: 1px solid #333;
+  color: #666;
+}
+
+#subscribeForm .input input[type=email] {
+    padding: 0 12px 0 0;
+}
+
+#subscribeForm .input input[type=submit] {
+    display: block;
+    visibility: hidden;
+}
+
+::-webkit-input-placeholder {
+   font-size: .8em;
+   color: #444;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-size: .8em;
+   color: #444;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-size: .8em;
+   color: #444;
+}
+
+:-ms-input-placeholder {
+   font-size: .8em;
+   color: #444;
+}
+
+
+#subscribeForm .msg {
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	text-align: center;
+	color: #666;
+	font-size: 1em;
+    opacity: 0;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+#subscribeForm .msg span {
+	display: block;
+}
+
+#subscribeForm.failure .msg {
+    opacity: 1;
+}
+
+
+
+@-moz-keyframes loading {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes loading {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes loading {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-ms-keyframes loading {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes loading {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
