@@ -23,9 +23,9 @@
 	<meta property="og:url" content="http://jsconf.asia/"/>
 	<meta property="og:image" content="http://jsconf.asia/assets/og_jsconfasia.jpg"/>
 	<meta property="og:site_name" content="JSConf.Asia"/>
-	<meta property="og:description" content="\"It's a bit like TED, but just for web devs\" Spread the word. Follow us on Twitter @jsconfasia"/>
+	<meta property="og:description" content="\"It's a bit like TED just for web devs\" Spread the word. Follow us on Twitter @jsconfasia"/>
 	<meta name="title" content="JSConf.Asia Singapore 2015"/>
-	<meta name="description" content="\"It's a bit like TED, but just for web devs\" Spread the word. Follow us on Twitter @jsconfasia"/>
+	<meta name="description" content="\"It's a bit like TED just for web devs\" Spread the word. Follow us on Twitter @jsconfasia"/>
 </head>
 <body>
 	<h1>JSConf.Asia 2015</h1>
