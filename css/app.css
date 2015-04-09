@@ -52,7 +52,51 @@ body > h1 {
 	height: 300px;
 	width: 300px;
     border-radius: 3px;
+    -webkit-animation: heartbeat 1600ms 3200ms infinite cubic-bezier(0, 0, 0, 1.74), fancy 90s infinite linear;
+    -webkit-transform: scale(0.97);
+    -moz-animation: heartbeat 1600ms 3200ms infinite cubic-bezier(0, 0, 0, 1.74), fancy 90s infinite linear;
+    -moz-transform: scale(0.97); 
+    animation: heartbeat 1600ms 3200ms infinite cubic-bezier(0, 0, 0, 1.74), fancy 90s infinite linear;
+    transform: scale(0.97); 
 }
+
+
+@-webkit-keyframes heartbeat {
+  0%, 25%, 42%, 70%, 100%   { 
+    -webkit-transform: scale(0.97); 
+  }
+  35%  { 
+    -webkit-transform: scale(1.00); 
+  }
+  54% {
+    -webkit-transform: scale(0.99);   
+  }
+}
+
+@-moz-keyframes heartbeat {
+  0%, 25%, 42%, 70%, 100%   { 
+    -moz-transform: scale(0.97); 
+  }
+  35%  { 
+    -moz-transform: scale(1.00); 
+  }
+  54% {
+    -moz-transform: scale(0.99);   
+  }
+}
+
+@keyframes heartbeat {
+  0%, 25%, 42%, 70%, 100%   { 
+    transform: scale(0.97); 
+  }
+  35%  { 
+    transform: scale(1.00); 
+  }
+  54% {
+    transform: scale(0.99);   
+  }
+}
+
 
 @-webkit-keyframes comein {
     0% {
