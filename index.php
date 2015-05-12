@@ -45,9 +45,13 @@
             <a href="http://2012.jsconf.asia" class="year2012">2012</a>
         </div>
         <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
-            <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="e-mail address for updates" /><input type="submit" value="Subscribe" /></span></div>
+            <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
             <div class="msg"><span></span></div>
         </form>
+        <div class="links">
+            <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia/">Call for Speakers</a>
+            <a href="mailto:sponsors@jsconf.asia">Sponsor interest</a>
+        </div>
 	</div>
 	</section>
 

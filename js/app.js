@@ -53,7 +53,7 @@ var change = function(e) {
 	}
 	else {
     	a.attr("placeholder","Enter your first name and");
-        b.attr("placeholder","e-mail address for updates");
+        b.attr("placeholder","email address for updates");
 	}
 };
 
@@ -76,5 +76,13 @@ $(document).ready(function() {
     	if(!$("#subscribeForm").hasClass("selected")) {
 		    $("#subscribeForm input[type='text']").select();
 		}
-	}, 9000);
+	}, 7000);
+});
+
+$("#subscribeForm input[type='email']").on("focus", function() {
+    if($("#subscribeForm input[type='text']").val() === '' && $("#subscribeForm input[type='email']").val() === '') {
+        setTimeout(function() {
+            $("#subscribeForm input[type='text']").select();
+        },1);
+    }
 });
