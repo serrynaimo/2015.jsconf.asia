@@ -31,15 +31,19 @@ body > h1 {
     position: absolute;
     z-index: 14;
     top: 47%;
-    width: 200px;
+    width: 300px;
     left: 50%;
-    margin: 0 -100px;
+    margin: 0 -150px;
 }
-#intro .years a {
+
+#intro a {
+  text-decoration: none;
+  color: #555;
+}
+#intro .years span {
 	color: #555;
     font-weight: 100;
-    font-size: 2em;
-    text-decoration: none;
+    font-size: 2.2em;
     display: block;
     -webkit-animation: year2012 2s ease-out 1;
     -webkit-transform-origin-y: 80%;
@@ -55,7 +59,7 @@ body > h1 {
     transform: translateZ(-1px) translateY(-18px);
 }
 
-#intro a.year2013 { 
+#intro .years span.year2013 {
     color: #555;
     font-size: 3em;
     -webkit-transform: translateY(-13px);
@@ -65,7 +69,7 @@ body > h1 {
     transform: translateY(-13px);
     animation: year2013 3s ease-out 1;
 }
-#intro a.year2014 {
+#intro .years span.year2014 {
     color: #666;
     font-size: 4em;
     -webkit-transform: translateY(0);
@@ -73,7 +77,7 @@ body > h1 {
     -moz-transform: translateY(0);
     -moz-animation: year2014 4s ease-out 1;
     transform: translateY(0);
-    animation: year2014 4s ease-out 1; 
+    animation: year2014 4s ease-out 1;
 }
 #intro a:hover {
 	color: #999;
@@ -100,9 +104,9 @@ body > h1 {
     -webkit-animation: heartbeat 1600ms 5.5s infinite cubic-bezier(0, 0, 0, 1.74), fancy 90s infinite linear;
     -webkit-transform: scale(0.97);
     -moz-animation: heartbeat 1600ms 5.5s infinite cubic-bezier(0, 0, 0, 1.74), fancy 90s infinite linear;
-    -moz-transform: scale(0.97); 
+    -moz-transform: scale(0.97);
     animation: heartbeat 1600ms 5.5s infinite cubic-bezier(0, 0, 0, 1.74), fancy 90s infinite linear;
-    transform: scale(0.97); 
+    transform: scale(0.97);
 }
 
 #intro .logo:before {
@@ -185,36 +189,36 @@ body > h1 {
 
 
 @-webkit-keyframes heartbeat {
-  0%, 25%, 42%, 70%, 100%   { 
-    -webkit-transform: scale(0.97); 
+  0%, 25%, 42%, 70%, 100%   {
+    -webkit-transform: scale(0.97);
   }
-  35%  { 
-    -webkit-transform: scale(1.00); 
+  35%  {
+    -webkit-transform: scale(1.00);
   }
   54% {
-    -webkit-transform: scale(0.99);   
+    -webkit-transform: scale(0.99);
   }
 }
 @-moz-keyframes heartbeat {
-  0%, 25%, 42%, 70%, 100%   { 
-    -moz-transform: scale(0.97); 
+  0%, 25%, 42%, 70%, 100%   {
+    -moz-transform: scale(0.97);
   }
-  35%  { 
-    -moz-transform: scale(1.00); 
+  35%  {
+    -moz-transform: scale(1.00);
   }
   54% {
-    -moz-transform: scale(0.99);   
+    -moz-transform: scale(0.99);
   }
 }
 @keyframes heartbeat {
-  0%, 25%, 42%, 70%, 100%   { 
-    transform: scale(0.97); 
+  0%, 25%, 42%, 70%, 100%   {
+    transform: scale(0.97);
   }
-  35%  { 
-    transform: scale(1.00); 
+  35%  {
+    transform: scale(1.00);
   }
   54% {
-    transform: scale(0.99);   
+    transform: scale(0.99);
   }
 }
 

@@ -1,3 +1,6 @@
+<?php
+  date_default_timezone_set('Asia/Singapore');
+?>
 <!doctype html>
 <!--
 
@@ -40,9 +43,11 @@
 		</svg></a></div>
         <div class="overlay"></div>
         <div class="years">
-            <a href="http://2014.jsconf.asia" class="year2014">2014</a>
-            <a href="http://2013.jsconf.asia" class="year2013">2013</a>
-            <a href="http://2012.jsconf.asia" class="year2012">2012</a>
+            <a href="http://blog.devfest.asia/early-buddy-tickets-for-cssconf-and-jsconf-asia/">
+            <span class="year2014" id="countdown">49:50:17</span>
+            <br/>
+            <span class="year2012">Tickets sales in</span>
+            </a>
         </div>
         <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
             <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
@@ -68,6 +73,61 @@
 
       ga('create', 'UA-31025490-9', 'auto');
       ga('send', 'pageview');
+
+    </script>
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-31025490-8', 'auto');
+      ga('send', 'pageview');
+
+   CountDownTimer('08/28/2015 3:0 PM', 'countdown');
+
+    function CountDownTimer(dt, id)
+    {
+        var end = new Date(dt);
+
+        var _second = 1000;
+        var _minute = _second * 60;
+        var _hour = _minute * 60;
+        var _day = _hour * 24;
+        var start = new Date('<?php echo date("r"); ?>');
+        var startjs = new Date();
+        var diff = startjs - start;
+        var timer;
+
+        function showRemaining() {
+            var now = new Date();
+            var passed = now - startjs;
+            var distance = end - start - passed;
+            if (distance < 0) {
+
+                clearInterval(timer);
+                document.getElementById(id).innerHTML = 'NOW!';
+
+                return;
+            }
+            var days = Math.floor(distance / _day);
+            var hours = days * 24 + Math.floor((distance % _day) / _hour);
+            var minutes = Math.floor((distance % _hour) / _minute);
+            var seconds = Math.floor((distance % _minute) / _second);
+
+          if(seconds < 10)
+            seconds = "0" + seconds;
+
+          if(minutes < 10)
+            minutes = "0" + minutes;
+
+            document.getElementById(id).innerHTML = hours + ':';
+            document.getElementById(id).innerHTML += minutes + ':';
+            document.getElementById(id).innerHTML += seconds;
+        }
+
+        timer = setInterval(showRemaining, 1000);
+    }
 
     </script>
 </body>
