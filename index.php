@@ -46,7 +46,7 @@
             <a href="http://blog.devfest.asia/early-buddy-tickets-for-cssconf-and-jsconf-asia/">
             <span class="year2014" id="countdown">49:50:17</span>
             <br/>
-            <span class="year2012">Tickets sales in</span>
+            <span class="year2012">Ticket sales in</span>
             </a>
         </div>
         <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
