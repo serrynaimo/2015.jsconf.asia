@@ -46,7 +46,7 @@
             <a href="http://blog.devfest.asia/early-buddy-tickets-for-cssconf-and-jsconf-asia/">
             <span class="year2014" id="countdown">49:50:17</span>
             <br/>
-            <span class="year2012">Ticket sales in</span>
+            <span class="year2012">Ticket sales start</span>
             </a>
         </div>
         <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
@@ -84,7 +84,7 @@
       ga('create', 'UA-31025490-8', 'auto');
       ga('send', 'pageview');
 
-   CountDownTimer('Fri 28 Aug 2015 15:00:00 +0800', 'countdown');
+   CountDownTimer('Fri 28 Aug 2015 15:00:00 +1000', 'countdown');
 
     function CountDownTimer(dt, id)
     {
@@ -106,7 +106,7 @@
             if (distance < 0) {
 
                 clearInterval(timer);
-                document.getElementById(id).innerHTML = 'NOW!';
+                document.getElementById(id).innerHTML = '<a href="https://www.eventnook.com/event/register/55645" onclick="event.stopPropagation();">NOW!</a>';
 
                 return;
             }
