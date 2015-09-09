@@ -122,9 +122,9 @@ body > h1 {
 .slide:nth-child(2n) .text {
   margin-left: -380px;
   text-align: right;
-  -webkit-animation: zoomnameright 4s linear;
-  -moz-animation: zoomnameright 4s linear;
-  animation: zoomnameright 4s linear;
+  -webkit-animation: zoomtextright 4s linear;
+  -moz-animation: zoomtextright 4s linear;
+  animation: zoomtextright 4s linear;
 }
 
 @-webkit-keyframes zoomimgleft {
