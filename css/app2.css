@@ -837,6 +837,25 @@ body > h1 {
     opacity: 1;
 }
 
+a.skip {
+    position: absolute;
+    z-index: 30;
+    bottom: 5%;
+    left: 50%;
+    width: 200px;
+    margin: 0 -100px;
+    text-align: center;
+    color: #444;
+    text-decoration: none;
+    display: block;
+    -webkit-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+a.skip:hover {
+  color: #888;
+}
+
 .links {
     opacity: 0;
     -webkit-transition: opacity 1s linear;

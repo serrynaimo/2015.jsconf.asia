@@ -71,27 +71,31 @@ $("#subscribeForm").hover(function() {
 	$("#subscribeForm").removeClass("hovered");
 });
 
-$(document).ready(function() {
-	var slide = 0;
-	setInterval(function() {
-		slide++;
-		if($(".slide"+slide).length) {
-    		$(".slide"+(slide-1)).removeClass('visible');
-    		$(".slide"+slide).addClass('visible');
-    	}
-    	if(slide === 6) {
-			setTimeout(function() {
-		    	$("#subscribeForm").css("opacity", "1");
-				$(".links").css("opacity", "1");
-			}, 6000);
+var slide = 0;
+function next() {
+	if($(".slide"+slide).length) {
+		$(".slide"+(slide-1)).removeClass('visible');
+		$(".slide"+slide).addClass('visible');
+	}
+	if(slide === 6) {
+		$(".skip").hide();
+		setTimeout(function() {
+	    	$("#subscribeForm").css("opacity", "1");
+			$(".links").css("opacity", "1");
+		}, 6000);
 
-			setTimeout(function() {
-		    	if(!$("#subscribeForm").hasClass("selected")) {
-				    $("#subscribeForm input[type='text']").select();
-				}
-			}, 8000);
-    	}
-	}, 3900);
+		setTimeout(function() {
+	    	if(!$("#subscribeForm").hasClass("selected")) {
+			    $("#subscribeForm input[type='text']").select();
+			}
+		}, 8000);
+	}
+	slide++;
+}
+
+$(document).ready(function() {
+
+	setInterval(next, 3900);
 });
 
 $("#subscribeForm input[type='email']").on("focus", function() {
@@ -101,3 +105,8 @@ $("#subscribeForm input[type='email']").on("focus", function() {
         },1);
     }
 });
+
+function skip() {
+	slide = 6;
+	next();
+}

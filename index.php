@@ -93,7 +93,7 @@
         </div>
 	</div>
 	</section>
-
+  <a href="#" onclick="skip()" class="skip">Skip sequence</a>
 
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
