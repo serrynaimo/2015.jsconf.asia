@@ -41,7 +41,7 @@
   <section class="slide slide1">
     <img src="img/princiya.jpg" />
     <div class="name">Princiya Sequeira</div>
-    <div class="text">Makes hardware in software</div>
+    <div class="text">Makes hardware with software</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide2">
@@ -59,10 +59,10 @@
   <section class="slide slide4">
     <img src="img/alexandre_strzelewicz.jpg" />
     <div class="name">Alexandre Strzelewicz</div>
-    <div class="text">Some unpronouncable last name ...</div>
+    <div class="text">Say his name out loud ...</div>
   </section>
   <section class="slide slide5">
-    <div class="text text2">... also the creator of pm2 for node</div>
+    <div class="text text2">... he is the author of pm2 for node</div>
   </section>
 	<section id="intro" class="slide slide6">
 	<div>
