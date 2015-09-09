@@ -537,7 +537,7 @@ body > h1 {
     animation: year2013 3s ease-out 1;
 }
 #intro .years a.year2012 {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     color: #aaa;
     font-weight: 200;
     font-size: 1.9em;

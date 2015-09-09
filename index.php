@@ -76,7 +76,7 @@
         <div class="overlay"></div>
         <div class="years">
             <a class="year2012" href="https://www.eventnook.com/event/register/55645">Get your ticket</a>
-            <a class="year2014" href="http://blog.devfest.asia">These people make the web<br/>you use every day</a>
+            <a class="year2014" href="http://blog.devfest.asia">For people who make the web<br/>we use every day</a>
         </div>
         <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
             <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
