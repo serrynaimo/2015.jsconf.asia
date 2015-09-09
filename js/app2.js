@@ -71,7 +71,7 @@ $("#subscribeForm").hover(function() {
 	$("#subscribeForm").removeClass("hovered");
 });
 
-var slide = 0;
+var slide = 1;
 function next() {
 	if($(".slide"+slide).length) {
 		$(".slide"+(slide-1)).removeClass('visible');
@@ -94,7 +94,6 @@ function next() {
 }
 
 $(document).ready(function() {
-
 	setInterval(next, 3900);
 });
 
