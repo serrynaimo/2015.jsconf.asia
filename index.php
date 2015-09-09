@@ -35,7 +35,7 @@
   <section class="slide slide0 visible">
     <img src="img/ryan_salva.jpg" />
     <div class="name">Ryan Salva</div>
-    <div class="text">Cordova speed enthusiast</div>
+    <div class="text">A speed enthusiast</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide1">
@@ -59,10 +59,10 @@
   <section class="slide slide4">
     <img src="img/alexandre_strzelewicz.jpg" />
     <div class="name">Alexandre Strzelewicz</div>
-    <div class="text">Say his name out loud ...</div>
+    <div class="text">From Paris</div>
   </section>
   <section class="slide slide5">
-    <div class="text text2">... he is the author of pm2 for node</div>
+    <div class="text text2">... also the author of pm2 for node</div>
   </section>
 	<section id="intro" class="slide slide6">
 	<div>
@@ -76,7 +76,7 @@
         <div class="overlay"></div>
         <div class="years">
             <a class="year2012" href="https://www.eventnook.com/event/register/55645">Get your ticket</a>
-            <a class="year2014" href="http://blog.devfest.asia">For people who make the web<br/>we use every day</a>
+            <a class="year2014" href="http://blog.devfest.asia">People who make the web<br/>we use every day</a>
         </div>
         <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
             <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
