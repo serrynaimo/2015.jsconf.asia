@@ -35,7 +35,7 @@
   <section class="slide slide0 visible">
     <img src="img/ryan_salva.jpg" />
     <div class="name">Ryan Salva</div>
-    <div class="text">A speed enthusiast</div>
+    <div class="text">An app speed enthusiast</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide1">
