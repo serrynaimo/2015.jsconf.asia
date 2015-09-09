@@ -504,7 +504,7 @@ body > h1 {
   color: #555;
 }
 #intro .years a {
-	color: #666;
+	color: #888;
     font-weight: 200;
     font-size: 1em;
     display: block;
@@ -524,11 +524,11 @@ body > h1 {
     transform: translateZ(-1px) translateY(-18px);
 }
 
-#intro .years a.year2013 {
-    color: #aaa;
+#intro .years a.year2014 {
+    color: #888;
     text-transform: uppercase;
-    font-weight: 100;
-    font-size: 1.8em;
+    font-weight: 200;
+    font-size: 1em;
     -webkit-transform: translateY(-13px);
     -webkit-animation: year2013 3s ease-out 1;
     -moz-transform: translateY(-13px);
@@ -537,10 +537,10 @@ body > h1 {
     animation: year2013 3s ease-out 1;
 }
 #intro .years a.year2012 {
-    margin-top: -8px;
-    color: #888;
+    margin-bottom: 20px;
+    color: #aaa;
     font-weight: 200;
-    font-size: 1em;
+    font-size: 1.9em;
     -webkit-transform: translateY(0);
     -webkit-animation: year2014 4s ease-out 1;
     -moz-transform: translateY(0);
