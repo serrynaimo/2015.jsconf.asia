@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2015</title>
 	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app1.css" />
+	<link rel="stylesheet" type="text/css" href="css/app2.css" />
 	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
@@ -32,7 +32,39 @@
 </head>
 <body>
 	<h1>JSConf.Asia 2015</h1>
-	<section id="intro">
+  <section class="slide slide0 visible">
+    <img src="img/ryan_salva.jpg" />
+    <div class="name">Ryan Salva</div>
+    <div class="text">Cordova speed enthusiast</div>
+    <div class="text2"></div>
+  </section>
+  <section class="slide slide1">
+    <img src="img/princiya.jpg" />
+    <div class="name">Princiya Sequeira</div>
+    <div class="text">Makes hardware in software</div>
+    <div class="text2"></div>
+  </section>
+  <section class="slide slide2">
+    <img src="img/matt_campbell.jpg" />
+    <div class="name">Matthew Campbell</div>
+    <div class="text">Messenger guy at Thomson Reuters</div>
+    <div class="text2"></div>
+  </section>
+  <section class="slide slide3">
+    <img src="img/sarmad_sangi.jpg" />
+    <div class="name">Sarmad Sangi</div>
+    <div class="text">e-commerce experience extraordinaire</div>
+    <div class="text2"></div>
+  </section>
+  <section class="slide slide4">
+    <img src="img/alexandre_strzelewicz.jpg" />
+    <div class="name">Alexandre Strzelewicz</div>
+    <div class="text">Some unpronouncable last name ...</div>
+  </section>
+  <section class="slide slide5">
+    <div class="text text2">... also the creator of pm2 for node</div>
+  </section>
+	<section id="intro" class="slide slide6">
 	<div>
 		<div class="js"><a class="logo" href="http://twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
 		<g id="logo">
@@ -43,19 +75,21 @@
 		</svg></a></div>
         <div class="overlay"></div>
         <div class="years">
-            <a href="http://blog.devfest.asia/early-buddy-tickets-for-cssconf-and-jsconf-asia/">
-            <span class="year2014" id="countdown">49:50:17</span>
-            <br/>
-            <span class="year2012">Ticket sales start</span>
-            </a>
+            <a class="year2013" href="https://www.eventnook.com/event/register/55645">Get your ticket</a>
+            <a class="year2012" href="http://blog.devfest.asia">Read some more</a>
         </div>
         <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
             <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
             <div class="msg"><span></span></div>
         </form>
         <div class="links">
-            <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia/">Call for Speakers</a>
-            <a href="mailto:sponsors@jsconf.asia">Sponsor interest</a>
+            <a href="http://flowhero.com" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
+            <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
+            <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
+            <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="" /></a>
+            <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
+            <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="" /></a>
+            <a href="mailto:sponsors@jsconf.asia">Sponsor<br/>interest?</a>
         </div>
 	</div>
 	</section>
@@ -64,7 +98,7 @@
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
 	<script type="text/javascript" src="js/jquery.form.min.js"></script>
-	<script src="js/app.js"></script>
+	<script src="js/app2.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -84,7 +118,7 @@
       ga('create', 'UA-31025490-8', 'auto');
       ga('send', 'pageview');
 
-   CountDownTimer('Wed 09 Sep 2015 14:00:00 +0800', 'countdown');
+   CountDownTimer('Wed, 09 Sep 2015 14:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
@@ -106,7 +140,7 @@
             if (distance < 0) {
 
                 clearInterval(timer);
-                document.getElementById(id).innerHTML = '<a href="https://www.eventnook.com/event/register/55645" onclick="event.stopPropagation();">NOW!</a>';
+                document.getElementById(id).innerHTML = '';
 
                 return;
             }

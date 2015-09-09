@@ -46,7 +46,7 @@ $("#subscribeForm .msg").click(function() {
 var change = function(e) {
     var a = $("#subscribeForm input[name='fname']");
     var b = $("#subscribeForm input[name='email']");
-    
+
 	if(e.which || a.val() !== "" || b.val() !== "") {
     	b.attr("placeholder","E-Mail");
         a.attr("placeholder","First name");
@@ -72,11 +72,26 @@ $("#subscribeForm").hover(function() {
 });
 
 $(document).ready(function() {
-	setTimeout(function() {
-    	if(!$("#subscribeForm").hasClass("selected")) {
-		    $("#subscribeForm input[type='text']").select();
-		}
-	}, 7000);
+	var slide = 0;
+	setInterval(function() {
+		slide++;
+		if($(".slide"+slide).length) {
+    		$(".slide"+(slide-1)).removeClass('visible');
+    		$(".slide"+slide).addClass('visible');
+    	}
+    	if(slide === 6) {
+			setTimeout(function() {
+		    	$("#subscribeForm").css("opacity", "1");
+				$(".links").css("opacity", "1");
+			}, 6000);
+
+			setTimeout(function() {
+		    	if(!$("#subscribeForm").hasClass("selected")) {
+				    $("#subscribeForm input[type='text']").select();
+				}
+			}, 8000);
+    	}
+	}, 3900);
 });
 
 $("#subscribeForm input[type='email']").on("focus", function() {
