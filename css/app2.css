@@ -523,7 +523,7 @@ body > h1 {
 }
 
 #intro .years a.year2013 {
-    color: #ccc;
+    color: #aaa;
     font-family: 'Doppio One';
     text-transform: uppercase;
     font-weight: 100;
@@ -551,7 +551,7 @@ body > h1 {
   -webkit-transition: color .2s linear;
   -moz-transition: color .2s linear;
   transition: color .2s linear;
-	color: #fff !important;
+	color: #ccc !important;
 }
 
 #intro .js {
