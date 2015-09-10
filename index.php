@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2015</title>
 	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app2.css" />
+	<link rel="stylesheet" type="text/css" href="css/app3.css" />
 	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
@@ -32,39 +32,42 @@
 </head>
 <body>
 	<h1>JSConf.Asia 2015</h1>
-  <section class="slide slide0 visible">
+  <section class="slide slide0">
+    <div class="title">"It's a bit like TED, just for web devs"</div>
+  </section>
+  <section class="slide slide1">
     <img src="img/ryan_salva.jpg" />
     <div class="name">Ryan Salva</div>
     <div class="text">An app speed enthusiast</div>
     <div class="text2"></div>
   </section>
-  <section class="slide slide1">
+  <section class="slide slide2">
     <img src="img/princiya.jpg" />
     <div class="name">Princiya Sequeira</div>
     <div class="text">Makes hardware with software</div>
     <div class="text2"></div>
   </section>
-  <section class="slide slide2">
+  <section class="slide slide3">
     <img src="img/matt_campbell.jpg" />
     <div class="name">Matthew Campbell</div>
     <div class="text">Messenger guy at Thomson Reuters</div>
     <div class="text2"></div>
   </section>
-  <section class="slide slide3">
+  <section class="slide slide4">
     <img src="img/sarmad_sangi.jpg" />
     <div class="name">Sarmad Sangi</div>
     <div class="text">e-commerce experience extraordinaire</div>
     <div class="text2"></div>
   </section>
-  <section class="slide slide4">
+  <section class="slide slide5">
     <img src="img/alexandre_strzelewicz.jpg" />
     <div class="name">Alexandre Strzelewicz</div>
     <div class="text">From Paris</div>
   </section>
-  <section class="slide slide5">
+  <section class="slide slide6">
     <div class="text text2">... also the author of pm2 for node</div>
   </section>
-	<section id="intro" class="slide slide6">
+	<section id="intro" class="slide slide7">
 	<div>
 		<div class="js"><a class="logo" href="http://twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
 		<g id="logo">
@@ -98,7 +101,7 @@
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
 	<script type="text/javascript" src="js/jquery.form.min.js"></script>
-	<script src="js/app2.js"></script>
+	<script src="js/app3.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

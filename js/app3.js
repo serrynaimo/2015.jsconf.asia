@@ -77,7 +77,7 @@ function next() {
 		$(".slide"+(slide-1)).removeClass('visible');
 		$(".slide"+slide).addClass('visible');
 	}
-	if(slide === 6) {
+	if(slide === 7) {
 		$(".skip").hide();
 		setTimeout(function() {
 	    	$("#subscribeForm").css("opacity", "1");
@@ -94,6 +94,10 @@ function next() {
 }
 
 $(document).ready(function() {
+    $(".slide0").addClass('visible');
+    setTimeout(function() {
+	   $(".slide0 .title").animate({"opacity": "0"}, 1000)
+    }, 2000);
 	setInterval(next, 3900);
 });
 
@@ -106,6 +110,6 @@ $("#subscribeForm input[type='email']").on("focus", function() {
 });
 
 function skip() {
-	slide = 6;
+	slide = 7;
 	next();
 }
