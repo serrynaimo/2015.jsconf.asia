@@ -86,7 +86,7 @@
             <div class="msg"><span></span></div>
         </form>
         <div class="links">
-            <a href="http://flowhero.com" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
+            <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
             <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
             <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="" /></a>
