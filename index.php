@@ -36,36 +36,36 @@
     <div class="title">"It's a bit like TED, just for web devs"</div>
   </section>
   <section class="slide slide1">
-    <img src="img/ryan_salva.jpg" />
-    <div class="name">Ryan Salva</div>
-    <div class="text">An app speed enthusiast</div>
+    <img src="img/isaac_johnston.jpg" />
+    <div class="name">Isaac Johnston</div>
+    <div class="text">Middle Earth’s Cyber Security</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide2">
-    <img src="img/princiya.jpg" />
-    <div class="name">Princiya Sequeira</div>
-    <div class="text">Makes hardware with software</div>
+    <img src="img/timoxley.jpg" />
+    <div class="name">Tim Oxley</div>
+    <div class="text">&quot;Modules!&quot;</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide3">
-    <img src="img/matt_campbell.jpg" />
-    <div class="name">Matthew Campbell</div>
-    <div class="text">Messenger guy at Thomson Reuters</div>
+    <img src="img/mariko.jpg" />
+    <div class="name">Mariko Kosaka</div>
+    <div class="text">Knitting.JS</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide4">
-    <img src="img/sarmad_sangi.jpg" />
-    <div class="name">Sarmad Sangi</div>
-    <div class="text">e-commerce experience extraordinaire</div>
+    <img src="img/matt_mckegg.jpg" />
+    <div class="name">Matt McKegg</div>
+    <div class="text">Open Backyard Musician</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide5">
-    <img src="img/alexandre_strzelewicz.jpg" />
-    <div class="name">Alexandre Strzelewicz</div>
-    <div class="text">From Paris</div>
+    <img src="img/henri.jpg" />
+    <div class="name">Mathieu p01 Henri</div>
+    <div class="text">1024 piece puzzle</div>
   </section>
   <section class="slide slide6">
-    <div class="text text2">... also the author of pm2 for node</div>
+    <div class="text text2">... for self assembly. Tools not included.</div>
   </section>
 	<section id="intro" class="slide slide7">
 	<div>
