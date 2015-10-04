@@ -36,36 +36,36 @@
     <div class="title">"It's a bit like TED, just for web devs"</div>
   </section>
   <section class="slide slide1">
-    <img src="img/isaac_johnston.jpg" />
-    <div class="name">Isaac Johnston</div>
-    <div class="text">Middle Earth’s Cyber Security</div>
+    <img src="img/hamzeen.jpg" />
+    <div class="name">Hamzeen Hameem</div>
+    <div class="text">Vision Visionary</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide2">
-    <img src="img/timoxley.jpg" />
-    <div class="name">Tim Oxley</div>
-    <div class="text">&quot;Modules!&quot;</div>
+    <img src="img/tim.jpg" />
+    <div class="name">Tim Messerschmidt</div>
+    <div class="text">Node Security Guard</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide3">
-    <img src="img/mariko.jpg" />
-    <div class="name">Mariko Kosaka</div>
-    <div class="text">Knitting.JS</div>
+    <img src="img/paul_adenot.jpg" />
+    <div class="name">Paul Adenot</div>
+    <div class="text">Web Audiophil</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide4">
-    <img src="img/matt_mckegg.jpg" />
-    <div class="name">Matt McKegg</div>
-    <div class="text">Open Backyard Musician</div>
+    <img src="img/karen.jpg" />
+    <div class="name">Karen Farzam</div>
+    <div class="text">Trader turned Engineer</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide5">
-    <img src="img/henri.jpg" />
-    <div class="name">Mathieu p01 Henri</div>
-    <div class="text">1024 piece puzzle</div>
+    <img src="img/kay.png" />
+    <div class="name">G. Kay Lee</div>
+    <div class="text">Uses React ...</div>
   </section>
   <section class="slide slide6">
-    <div class="text text2">... for self assembly. Tools not included.</div>
+    <div class="text text2">... inspired by molecular biology</div>
   </section>
 	<section id="intro" class="slide slide7">
 	<div>
