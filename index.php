@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2015</title>
 	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app3.css" />
+	<link rel="stylesheet" type="text/css" href="css/app4.css" />
 	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
@@ -86,13 +86,14 @@
             <div class="msg"><span></span></div>
         </form>
         <div class="links">
+            <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px;" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
             <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
             <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="" /></a>
             <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
-            <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="" /></a>
-            <a href="mailto:sponsors@jsconf.asia">Sponsor<br/>interest?</a>
+            <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
+            <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="margin: 3px 0 0" /></a>
         </div>
 	</div>
 	</section>
