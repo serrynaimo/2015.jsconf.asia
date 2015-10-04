@@ -81,11 +81,11 @@
             <a class="year2012" href="https://www.eventnook.com/event/register/55645">Get your ticket</a>
             <a class="year2014" href="http://blog.devfest.asia">People who make the web<br/>we use every day</a>
         </div>
-        <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
-            <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
-            <div class="msg"><span></span></div>
-        </form>
         <div class="links">
+            <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
+                <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
+                <div class="msg"><span></span></div>
+            </form>
             <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px;" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>

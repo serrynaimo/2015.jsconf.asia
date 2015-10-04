@@ -746,7 +746,7 @@ body > h1 {
   -webkit-transition: opacity 1s linear;
     position: absolute;
     z-index: 11;
-    top: 68%;
+    top: -70px;
     left: 50%;
 	width: 500px;
 	height: 40px;
