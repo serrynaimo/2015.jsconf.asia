@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2015</title>
 	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app3.css" />
+	<link rel="stylesheet" type="text/css" href="css/app4.css" />
 	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
@@ -36,36 +36,36 @@
     <div class="title">"It's a bit like TED, just for web devs"</div>
   </section>
   <section class="slide slide1">
-    <img src="img/isaac_johnston.jpg" />
-    <div class="name">Isaac Johnston</div>
-    <div class="text">Middle Earth’s Cyber Security</div>
+    <img src="img/hamzeen.jpg" />
+    <div class="name">Hamzeen Hameem</div>
+    <div class="text">Vision Visionary</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide2">
-    <img src="img/timoxley.jpg" />
-    <div class="name">Tim Oxley</div>
-    <div class="text">&quot;Modules!&quot;</div>
+    <img src="img/tim.jpg" />
+    <div class="name">Tim Messerschmidt</div>
+    <div class="text">Node Security Guard</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide3">
-    <img src="img/mariko.jpg" />
-    <div class="name">Mariko Kosaka</div>
-    <div class="text">Knitting.JS</div>
+    <img src="img/paul_adenot.jpg" />
+    <div class="name">Paul Adenot</div>
+    <div class="text">Web Audiophil</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide4">
-    <img src="img/matt_mckegg.jpg" />
-    <div class="name">Matt McKegg</div>
-    <div class="text">Open Backyard Musician</div>
+    <img src="img/karen.jpg" />
+    <div class="name">Karen Farzam</div>
+    <div class="text">Trader turned Engineer</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide5">
-    <img src="img/henri.jpg" />
-    <div class="name">Mathieu p01 Henri</div>
-    <div class="text">1024 piece puzzle</div>
+    <img src="img/kay.png" />
+    <div class="name">G. Kay Lee</div>
+    <div class="text">Uses React ...</div>
   </section>
   <section class="slide slide6">
-    <div class="text text2">... for self assembly. Tools not included.</div>
+    <div class="text text2">... inspired by molecular biology</div>
   </section>
 	<section id="intro" class="slide slide7">
 	<div>
@@ -81,18 +81,19 @@
             <a class="year2012" href="https://www.eventnook.com/event/register/55645">Get your ticket</a>
             <a class="year2014" href="http://blog.devfest.asia">People who make the web<br/>we use every day</a>
         </div>
-        <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
-            <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
-            <div class="msg"><span></span></div>
-        </form>
         <div class="links">
+            <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
+                <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
+                <div class="msg"><span></span></div>
+            </form>
+            <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px;" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
             <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
             <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="" /></a>
             <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
-            <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="" /></a>
-            <a href="mailto:sponsors@jsconf.asia">Sponsor<br/>interest?</a>
+            <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
+            <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="margin: 3px 0 0" /></a>
         </div>
 	</div>
 	</section>
