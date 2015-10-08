@@ -94,6 +94,7 @@
             <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="" /></a>
             <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="" /></a>
             <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
+            <a href="http://kkbox.com" target="_blank"><img src="img/kkbox.png" style="width: 70px;" /></a>
             <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
             <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="margin: 3px 0 0" /></a>
         </div>
