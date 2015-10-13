@@ -90,6 +90,7 @@
             <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
+            <a href="http://zopim.com" target="_blank"><img src="img/zopim.png" style="width: 78px;" /></a>
             <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
             <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="" /></a>
             <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="" /></a>
