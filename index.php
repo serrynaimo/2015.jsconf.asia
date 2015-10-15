@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2015</title>
 	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app4.css" />
+	<link rel="stylesheet" type="text/css" href="css/app5.css" />
 	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
@@ -76,11 +76,8 @@
 		  <path id="s" fill="#ffffff" d="m 375,520.13 48.20625,-27.91125 c 12.69,20.72375 29.1825,35.9475 58.36125,35.9475 24.53125,0 40.17375,-12.26475 40.17375,-29.18125 0,-20.29875 -16.06875,-27.48875 -43.135,-39.32625 l -14.7975,-6.3475 c -42.715,-18.18125 -71.05,-41.0175 -71.05,-89.2275 0,-44.40375 33.83125,-78.2375 86.695,-78.2375 37.6375,0 64.7025,13.11125 84.15375,47.36625 l -46.09625,29.60125 c -10.15,-18.1825 -21.1425,-25.37125 -38.0575,-25.37125 -17.33875,0 -28.335,10.995 -28.335,25.37125 0,17.7625 10.99625,24.9525 36.3675,35.94875 l 14.8,6.3425 c 50.325,21.56875 78.66,43.5575 78.66,93.03375 0,53.2875 -41.86625,82.465 -98.11,82.465 -54.97625,0 -90.5,-26.2175 -107.83625,-60.47375" />
 		</g>
 		</svg></a></div>
+    <div class="slogan">Southeast Asias most influential<br/>web developer conference</div>
         <div class="overlay"></div>
-        <div class="years">
-            <a class="year2012" href="https://www.eventnook.com/event/register/55645">Get your ticket</a>
-            <a class="year2014" href="http://blog.devfest.asia">People who make the web<br/>we use every day</a>
-        </div>
         <div class="links">
             <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
                 <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
@@ -103,10 +100,17 @@
 	</section>
   <a href="#" onclick="skip()" class="skip">Skip sequence</a>
 
+  <section id="body">
+
+
+
+  </section>
+
+
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
 	<script type="text/javascript" src="js/jquery.form.min.js"></script>
-	<script src="js/app3.js"></script>
+	<script src="js/app5.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

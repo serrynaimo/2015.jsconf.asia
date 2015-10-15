@@ -79,16 +79,11 @@ function next() {
 	}
 	if(slide === 7) {
 		$(".skip").hide();
-		setTimeout(function() {
-	    	$("#subscribeForm").css("opacity", "1");
-			$(".links").css("opacity", "1");
-		}, 6000);
+		$("#body").slideDown();
 
 		setTimeout(function() {
-	    	if(!$("#subscribeForm").hasClass("selected")) {
-			    $("#subscribeForm input[type='text']").select();
-			}
-		}, 8000);
+			$(".links").css("opacity", "1");
+		}, 4000);
 	}
 	slide++;
 }
