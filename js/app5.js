@@ -79,11 +79,14 @@ function next() {
 	}
 	if(slide === 7) {
 		$(".skip").hide();
-		$("#body").slideDown();
+		$(".slide:not(.slide7)").removeClass('visible');
 
 		setTimeout(function() {
 			$(".links").css("opacity", "1");
 		}, 4000);
+		setTimeout(function() {
+	 	  $("body").addClass("topbar");
+   		}, 7500);
 	}
 	slide++;
 }
