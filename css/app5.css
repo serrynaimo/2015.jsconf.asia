@@ -596,7 +596,7 @@ body > h1 {
   top: 50px;
   height: 20px;
   width: 100%;
-  -webkit-transition: all .5s linear;
+  -webkit-transition: all .5s ease-out;
 }
 
 .topbar #intro .logo svg {
@@ -609,12 +609,13 @@ body > h1 {
 }
 
 .topbar #intro .logo:before {
-  top: -48px;
+  top: -28px;
   -webkit-transition: all .5s linear;
 }
 
 .topbar #intro .logo:after {
   top: -28px;
+  left: 190px;
   -webkit-transition: all .5s linear;
 }
 
@@ -624,13 +625,13 @@ body > h1 {
 
 .topbar #intro .slogan, .topbar #intro .links {
   opacity: 0 !important;
-  -webkit-transition: all .5s linear;
+  -webkit-transition: all .2s linear;
 }
 
 .topbar #intro {
   height: 80px;
   min-height: 0;
-  -webkit-transition: all .5s linear;
+  -webkit-transition: all .2s linear;
 }
 
 
@@ -824,7 +825,7 @@ a.skip:hover {
   color: #888;
 }
 
-.links {
+#intro .links {
     opacity: 0;
     -webkit-transition: opacity 1s linear;
     -moz-transition: opacity 1s linear;
@@ -866,9 +867,13 @@ a.skip:hover {
   top: 90px;
   left: 15px;
   right: 15px;
+  bottom: 15px;
   display: none;
   opacity: 0;
   color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .topbar #body {
@@ -877,20 +882,52 @@ a.skip:hover {
   transition: all .2s linear;
 }
 
+
 #body h2, #body h3 {
   color: #56AAEB;
 }
 
 
-#speakers {
-    margin-bottom: 300px;
+#body > section {
     min-width: 480px;
     margin: 0 auto 300px;
 }
 
+#about {
+  height: 50vh;
+}
+
+#about p {
+  text-align: left;
+  width: 420px;
+  color: #aaa;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  margin: 120px auto 40px;
+  font-weight: 100;
+}
+
+#about a.button {
+  display: inline-block;
+  text-decoration: none;
+  border: 0;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background: #56AAEB;
+  color: #fff;
+  border-radius: 3px;
+  font-family: 'Doppio One';
+  text-transform: uppercase;
+  font-size: 1em;
+}
+#about a.button:hover {
+  background: #56AAEB;
+}
+
 
 #speakers > .day + .day {
-
+  margin-bottom: 120px;
 }
 
 #speakers .day {
@@ -1076,7 +1113,7 @@ a.skip:hover {
 }
 
 @media all and (min-width: 1020px) {
-    #speakers {
+    #body > section {
         width: 1020px;
         margin: 0 auto 300px;
     }

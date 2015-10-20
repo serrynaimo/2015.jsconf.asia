@@ -79,28 +79,27 @@
     <div class="slogan">Southeast Asia's most influential<br/>web developer conference</div>
         <div class="overlay"></div>
         <div class="links">
-            <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
-                <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
-                <div class="msg"><span></span></div>
-            </form>
-            <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="width: 150px" /></a>
-            <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="width: 135px" /></a><br/>
-            <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px;" /></a>
-            <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
-            <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
-            <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
-            <a href="http://zopim.com" target="_blank"><img src="img/zopim.png" style="width: 78px;" /></a>
-            <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
-            <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
-            <a href="http://kkbox.com" target="_blank"><img src="img/kkbox.png" style="width: 70px;" /></a>
-            <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
-            <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="margin: 3px 0 0" /></a>
+            <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" /></a>
+            <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" /></a><br/><br/><br/><br/>
         </div>
 	</div>
 	</section>
   <a href="#" onclick="skip()" class="skip">Skip sequence</a>
 
   <section id="body">
+
+    <section id="about">
+      <h2>What is <i>this</i>?!</h2>
+      <p>
+        At JSConf.Asia Southeast Asia's open web developer community comes together to exchange, to learn and entertain.
+        We showcase and teach the abilities of the web platform and inspire the next generation of tools, methods and solutions.
+        Come for the many amazing talks, exchange and collaborate at our coffee bar and make new friends over afternoon drinks.
+        As with JavaScript, you've to step in, take a break and find out yourself what <i>this</i> is.
+      </p>
+      <div style="text-align: center;">
+        <a href="https://www.eventnook.com/event/devfestasia2015/home" class="button">Get your ticket</a>
+      </div>
+    </section>
 
     <span id="schedule"></span>
     <section id="speakers" class="thursday">
@@ -471,6 +470,29 @@
               </div>
                 </div>
       </div>
+    </section>
+
+    <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
+      <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
+      <div class="msg"><span></span></div>
+    </form>
+
+    <section id="sponsors">
+      <h2>Sponsors</h2>
+      <p class="links">
+            <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="width: 150px" /></a>
+            <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="width: 135px" /></a><br/><br/>
+            <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px;" /></a>
+            <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
+            <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
+            <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
+            <a href="http://zopim.com" target="_blank"><img src="img/zopim.png" style="width: 78px;" /></a>
+            <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
+            <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
+            <a href="http://kkbox.com" target="_blank"><img src="img/kkbox.png" style="width: 70px;" /></a>
+            <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
+            <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="margin: 3px 0 0" /></a>
+        </p>
     </section>
 
   </section>
