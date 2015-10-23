@@ -428,7 +428,7 @@
       <p class="links">
             <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="width: 150px" /></a>
             <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="width: 135px" /></a><br/><br/><br/>
-            <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px; opacity: .5;" /></a>
+            <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px; opacity: .6;" /></a>
             <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
             <a href="http://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
