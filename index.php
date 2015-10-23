@@ -42,32 +42,27 @@
     <div class="text2"></div>
   </section>
   <section class="slide slide2">
-    <img src="img/tim.jpg" />
+    <img src="img/prasanna.jpg" />
     <div class="name">Prasanna Kanagasabai</div>
     <div class="text">A Fuzzing PenTester</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide3">
-    <img src="img/paul_adenot.jpg" />
-    <div class="name">Paul Adenot</div>
-    <div class="text">Web Audiophil</div>
+    <img src="img/chris_heilmann.jpg" />
+    <div class="name">Christian Heilmann</div>
+    <div class="text">Real-life Firefox</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide4">
-    <img src="img/karen.jpg" />
-    <div class="name">Karen Farzam</div>
-    <div class="text">Trader turned Engineer</div>
+    <img src="img/danese_cooper.jpg" />
+    <div class="name">Danese Cooper</div>
+    <div class="text">Open Source Advocat</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide5">
-    <img src="img/kay.png" />
-    <div class="name">G. Kay Lee</div>
-    <div class="text">Uses React ...</div>
+    <div class="text text2">... and Chairwoman of the Node.JS Foundation</div>
   </section>
-  <section class="slide slide6">
-    <div class="text text2">... inspired by molecular biology</div>
-  </section>
-	<section id="intro" class="slide slide7">
+	<section id="intro" class="slide slide6">
 	<div>
 		<div class="js"><a class="logo" href="http://twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
 		<g id="logo">

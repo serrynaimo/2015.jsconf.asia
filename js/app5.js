@@ -77,9 +77,9 @@ function next() {
 		$(".slide"+(slide-1)).removeClass('visible');
 		$(".slide"+slide).addClass('visible');
 	}
-	if(slide === 7) {
+	if(slide === 6) {
 		$(".skip").hide();
-		$(".slide:not(.slide7)").removeClass('visible');
+		$(".slide:not(.slide6)").removeClass('visible');
 
 		setTimeout(function() {
 			$(".links").css("opacity", "1");
@@ -111,7 +111,7 @@ $("#subscribeForm input[type='email']").on("focus", function() {
 });
 
 function skip(e) {
-	slide = 7;
+	slide = 6;
 	next();
 	return false;
 }
