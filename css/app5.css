@@ -889,12 +889,14 @@ a.skip:hover {
 
 
 #body > section {
-    min-width: 480px;
-    margin: 0 auto 300px;
+    min-width: 450px;
+    margin: 0 auto 100px;
 }
 
 #about {
-  height: 40vh;
+  height: 30vh;
+  min-height: 480px;
+  margin-bottom: 300px;
 }
 
 #about p {
@@ -1092,10 +1094,30 @@ a.skip:hover {
 }
 
 
+#footer p {
+  text-align: center;
+  width: 480px;
+  color: #888;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+#footer p a {
+  color: #888;
+}
+
+#footer p a:hover {
+  color: #bbb;
+}
+
+
 @media all and (min-width: 1020px) {
     #body > section {
         width: 1020px;
-        margin: 0 auto 300px;
+        margin: 0 auto 100px;
     }
 
     #speakers .day {

@@ -89,12 +89,13 @@
   <section id="body">
 
     <section id="about">
-      <h2>What is <i>this</i>?!</h2>
       <p>
-        At JSConf.Asia Southeast Asia's open web developer community comes together to exchange, to learn and entertain.
+        <br/>
+        What is <i>this</i>, you may ask? Well, at JSConf.Asia Southeast Asia's open web developer community comes together to exchange, to learn and entertain.
         We showcase and teach the abilities of the web platform and inspire the next generation of tools, methods and solutions.
         Come for the many amazing talks, exchange and collaborate at our coffee bar and make new friends over afternoon drinks.
-        As with JavaScript, you've to step in, take a break and find out yourself what <i>this</i> is.
+        As with JavaScript, you've to step in, take a break and find out yourself what <i>this</i> is. All we want to give away ahead of time is:<br/><br/>
+        <i>It's a bit like TED, just for web devs.</i>
       </p>
       <div style="text-align: center;">
         <a href="https://www.eventnook.com/event/devfestasia2015/home" class="button">Get your ticket</a>
@@ -428,9 +429,10 @@
       <p><br/></p>
       <p class="links">
             <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="width: 150px" /></a>
-            <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="width: 135px" /></a><br/><br/>
-            <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px;" /></a>
+            <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="width: 135px" /></a><br/><br/><br/>
+            <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px; opacity: .5;" /></a>
             <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
+            <a href="http://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
             <a href="http://zopim.com" target="_blank"><img src="img/zopim.png" style="width: 78px;" /></a>
@@ -440,6 +442,23 @@
             <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
             <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="margin: 3px 0 0" /></a>
         </p>
+    </section>
+
+    <section id="footer">
+      <p>
+        <a href="http://2015.devfest.asia"><img src="http://2015.devfest.asia/images/logo.png" height="100" alt="Singapore DevFest.Asia 2014"/></a>
+      </p>
+      <p>
+        <br/>
+        JSConf.Asia 2015 Singapore is part of Asia’s<br/> first community organized web developer festival.<br/><br/>
+        <a href="http://jsconf.com">JSConf around the world</a><br/><br/>
+        Checkout what we did in the past:<br/><a href="http://2014.jsconf.asia" target="_blank">JSConf.Asia 2014</a>
+         | <a href="http://2013.jsconf.asia" target="_blank">JSConf.Asia 2013</a>
+         | <a href="http://2012.jsconf.asia" target="_blank">JSCamp.Asia 2012</a><br/><br/><br/>
+        A Nerdherd Pte. Ltd. event<br/>
+        <a href="http://2015.devfest.asia/terms-and-conditions.html">Terms &amp; Conditions</a><br/>
+        <a href="http://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a>
+      </p>
     </section>
 
   </section>
