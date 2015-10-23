@@ -24,7 +24,7 @@
 	<meta property="og:title" content="JSConf.Asia - 19+20 Nov 2015, Singapore"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="http://2015.jsconf.asia/"/>
-	<meta property="og:image" content="http://2015.jsconf.asia/assets/og_jsconfasia.jpg"/>
+	<meta property="og:image" content="http://2015.jsconf.asia/assets/og_jsconfasia.png"/>
 	<meta property="og:site_name" content="JSConf.Asia"/>
 	<meta property="og:description" content='"It‘s a bit like TED just for web devs" Spread the word. Follow us on Twitter @jsconfasia'/>
 	<meta name="title" content="JSConf.Asia - 19+20 Nov 2015, Singapore"/>
@@ -36,15 +36,15 @@
     <div class="title">"It's a bit like TED, just for web devs"</div>
   </section>
   <section class="slide slide1">
-    <img src="img/hamzeen.jpg" />
-    <div class="name">Hamzeen Hameem</div>
-    <div class="text">Vision Visionary</div>
+    <img src="img/matt_podwysocki.jpg" />
+    <div class="name">Matthew Podwysocki</div>
+    <div class="text">Reactive coder</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide2">
     <img src="img/tim.jpg" />
-    <div class="name">Tim Messerschmidt</div>
-    <div class="text">Node Security Guard</div>
+    <div class="name">Prasanna Kanagasabai</div>
+    <div class="text">A Fuzzing PenTester</div>
     <div class="text2"></div>
   </section>
   <section class="slide slide3">
@@ -115,14 +115,14 @@
     <section id="speakers" class="thursday">
       <div class="day thursday">
           <h4>Thursday 19th</h4>
-                <div class="speaker break">
+          <div class="speaker break">
             <span>8 AM</span>
-                    <h3>Registration</h3>
+            <h3>Registration</h3>
           </div>
-                <div class="speaker break">
+          <div class="speaker break">
             <span>9 AM</span>
-                    <h3>Opening</h3>
-                    <h4>JSConf.Asia staff</h4>
+            <h3>Opening</h3>
+            <h4>JSConf.Asia staff</h4>
           </div>
           <div class="speaker">
             <span>9:30 AM</span>
@@ -144,7 +144,7 @@
           <div class="speaker">
             <span>10:15 AM</span>
             <img src="img/princiya.jpg" />
-                    <h3>Web based 3D Camera Simulator for Perceptual Computing</h3>
+            <h3>Web based 3D Camera Simulator for Perceptual Computing</h3>
             <h4>Princiya Sequeira <a href="https://twitter.com/princi_ya" target="_blank">@princi_ya</a></h4>
             <p>
                 This talk is about a web based solution to simulate 3D cameras for prototyping, developing and testing perceptual computing, augmented reality applications without using a physical device. The simulator mimics all of the hardware features of a typical 3D camera like that of Intel’s RealSense or Microsoft’s Kinect. The solution is purely based on JavaScript and easily integrates with the 3D camera’s SDKs. Also, it is platform independent.

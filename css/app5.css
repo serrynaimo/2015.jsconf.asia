@@ -8,7 +8,6 @@ body {
   overflow-x: hidden;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   position: relative;
-  -webkit-text-size-adjust: 100%;
 }
 
 body > h1 {
@@ -933,7 +932,7 @@ a.skip:hover {
   line-height: 1.4em;
   letter-spacing: 1px;
   margin: 120px auto 40px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 #about a.button {
@@ -1173,7 +1172,7 @@ a.skip:hover {
   line-height: 1.4em;
   letter-spacing: 1px;
   margin: 0 auto;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 #footer p a {
