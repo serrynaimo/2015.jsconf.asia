@@ -111,3 +111,7 @@ function skip() {
 	slide = 7;
 	next();
 }
+
+$('.speaker').click(function(e) {
+   $(e.currentTarget).toggleClass('open');
+});

@@ -894,7 +894,7 @@ a.skip:hover {
 }
 
 #about {
-  height: 50vh;
+  height: 40vh;
 }
 
 #about p {
@@ -1064,11 +1064,15 @@ a.skip:hover {
     transform: rotateY(0deg);
 }
 
+#speakers .speaker > p a {
+    color: #fff;
+}
+
 #speakers .speaker > p {
     clear: left;
     width: 380px;
     padding-top: 6px;
-    margin-left: 63px;
+    margin-left: 93px;
     font-size: .9em;
     line-height: 1.2em;
     height: 0;
@@ -1111,6 +1115,11 @@ a.skip:hover {
 #speakers .speaker.break {
     cursor: default;
 }
+
+#sponsors {
+  clear: both;
+}
+
 
 @media all and (min-width: 1020px) {
     #body > section {
