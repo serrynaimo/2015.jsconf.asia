@@ -340,7 +340,7 @@
                   Prasanna has worked as a full time hands-on Web Application pen tester for the past 12+ years. His clients have included large international organisations in the e-Commerce, automobile, premium banking and finance, and government spaces. He regular conducts training sessions to up-skill developers to deliver secure and safe solutions. He has presented at popular security events such as nullcon-Delhi, Clubhack, IIT Guwahati and at various meetups. He is one of the community leads in the Singapore security community. His community code contributions include IronSAP, a SAP testing plugin for IronWASP. At present, his interests include Fuzzing.
                 </p>
               </div>
-              <div class="speaker break" style="height: 109px;">
+              <div class="speaker break" style="height: 86px;">
                   <span>12:15 PM</span>
                   <h3>Lunch is served</h3>
               </div>
