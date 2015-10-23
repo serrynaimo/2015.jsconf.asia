@@ -952,18 +952,7 @@ a.skip:hover {
     margin: 20px auto 0;
     width: 480px;
     position: relative;
-    position: relative;
     clear: left;
-  -webkit-perspective: 250px;
-  -moz-perspective: 250px;
-  -ms-perspective: 250px;
-  -o-perspective: 250px;
-    perspective: 250px;
-    -webkit-perspective-origin: 50px 0;
-  -moz-perspective-origin: 50px 0;
-  -ms-perspective-origin: 50px 0;
-  -o-perspective-origin: 50px 0;
-    perspective-origin: 50px 0;
     min-height: 65px;
 }
 
@@ -1018,7 +1007,7 @@ a.skip:hover {
 #speakers .speaker > img {
     float: left;
     margin-top: 0;
-  height: 70px;
+    height: 70px;
     width: 70px;
     margin-right: 13px;
 }
@@ -1027,6 +1016,7 @@ a.skip:hover {
       margin-top: 2px;
       font-size: 1.1em;
       width: 460px;
+      position: relative;
 }
 
 #speakers .speaker > h4 {
@@ -1041,27 +1031,9 @@ a.skip:hover {
     margin-left: 94px;
 }
 
-#speakers .speaker > *:not(span) {
-    -webkit-transform: rotateY(3deg);
-    -webkit-transform-origin: -50px 0;
-    -moz-transform-origin: -50px 0;
-    -moz-transform: rotateY(3deg);
-    -ms-transform-origin: -50px 0;
-    -ms-transform: rotateY(3deg);
-    -o-transform-origin: -50px 0;
-    -o-transform: rotateY(3deg);
-    transform: rotateY(3deg);
-    transform-origin: -50px 0;
-}
-
-#speakers .speaker:hover > *:not(span),
-#speakers .speaker.open > *:not(span) {
-    transition: all .2s ease-out;
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+#speakers .speaker:not(.break):hover > span:not(.img):after,
+#speakers .speaker.open:not(.break) > span:not(.img):after {
+    background: #FFED2A;
 }
 
 #speakers .speaker > p a {

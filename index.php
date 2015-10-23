@@ -120,7 +120,7 @@
           </div>
           <div class="speaker">
             <span>9:30 AM</span>
-            <img src="img/speakers/ryan_salva.jpg" />
+            <img src="img/ryan_salva.jpg" />
             <h3>The real story behind JS performance in mobile web and hybrid apps… because science!</h3>
             <h4>Ryan J Salva, Microsoft <a href="https://twitter.com/ryanjsalva" target="_blank">@ryanjsalva</a></h4>
             <p>
@@ -137,7 +137,7 @@
           </div>
           <div class="speaker">
             <span>10:15 AM</span>
-            <img src="img/speakers/princiya.jpg" />
+            <img src="img/princiya.jpg" />
                     <h3>Web based 3D Camera Simulator for Perceptual Computing</h3>
             <h4>Princiya Sequeira <a href="https://twitter.com/princi_ya" target="_blank">@princi_ya</a></h4>
             <p>
@@ -155,7 +155,7 @@
           </div>
           <div class="speaker">
             <span>11:00 AM</span>
-            <img src="img/speakers/matthew_campbell.jpg" />
+            <img src="img/matt_campbell.jpg" />
             <h3>Story time: Game programming in JavaScript</h3>
             <h4>Matthew Campbell, Thomson Reuters <a href="https://twitter.com/kanwisher" target="_blank">@kanwisher</a></h4>
             <p>
@@ -167,7 +167,7 @@
           </div>
           <div class="speaker">
             <span>11:45 AM</span>
-            <img src="img/speakers/tim_oxley.jpg" />
+            <img src="img/timoxley.jpg" />
             <h3>Modular vs Monolith – The Structure of Node.JS Applications</h3>
             <h4>Tim Oxley, NodeSource<a href="https://twitter.com/secoif" target="_blank">@secoif</a></h4>
             <p>
@@ -183,7 +183,7 @@
           </div>
           <div class="speaker">
             <span>1:15 PM</span>
-            <img src="img/speakers/paul_adenot.jpg" />
+            <img src="img/paul_adenot.jpg" />
             <h3>Elements of dance music</h3>
             <h4>Paul Adenot, Mozilla <a href="https://twitter.com/padenot" target="_blank">@padenot</a></h4>
             <p>
@@ -197,7 +197,7 @@
           </div>
           <div class="speaker">
             <span>2:00 PM</span>
-            <img src="img/speakers/gkaylee.jpg" />
+            <img src="img/kay.png" />
             <h3>Bio-Inspired Frontend Engineering</h3>
             <h4>G. Kay Lee, KKBOX <a href="https://twitter.com/gsklee" target="_blank">@gsklee</a></h4>
             <p>
@@ -213,7 +213,7 @@
           </div>
           <div class="speaker">
             <span>2:45 PM</span>
-            <img src="img/speakers/soares.jpg" />
+            <img src="img/alexandre_strzelewicz.jpg" />
             <h3>Scalable Micro Services with Node.JS</h3>
             <h4>Alexandre Strzelewicz <a href="https://twitter.com/strzel_a" target="_blank">@strzel_a</a></h4>
             <p>
@@ -229,7 +229,7 @@
           </div>
           <div class="speaker">
             <span>3:45 PM</span>
-            <img src="img/speakers/isaac_johnston.jpg" />
+            <img src="img/isaac_johnston.jpg" />
             <h3>Simplicity through Functions</h3>
             <h4>Isaac Johnston <a href="https://twitter.com/superstructor" target="_blank">@superstructor</a></h4>
             <p>
@@ -241,7 +241,7 @@
           </div>
           <div class="speaker">
             <span>4:30 PM</span>
-            <img src="img/speakers/sarmad_sangi.jpg" />
+            <img src="img/sarmad_sangi.jpg" />
             <h3>Story time: Towards Universal JavaScript</h3>
             <h4>Sarmad Sangi, RedMart <a href="https://twitter.com/sarmadsangi" target="_blank">@sarmadsangi</a></h4>
             <p>
@@ -254,7 +254,7 @@
           </div>
           <div class="speaker">
             <span>5:15 PM</span>
-            <img src="img/speakers/chris_heilmann.jpg" />
+            <img src="img/chris_heilmann.jpg" />
             <h3>Story time: Towards Universal JavaScript</h3>
             <h4>Christian Heilmann, Microsoft <a href="https://twitter.com/codepo8" target="_blank">@codepo8</a></h4>
             <p>
@@ -274,7 +274,7 @@
               </div>
               <div class="speaker">
                 <span>9 AM</span>
-                <img src="img/speakers/p01.jpg" />
+                <img src="img/henri.jpg" />
                 <h3>Making realtime Audio-Visuals</h3>
                 <h4>Mathieu Henri <a href="https://twitter.com/p01" target="_blank">@p01</a></h4>
                 <p>
@@ -288,7 +288,7 @@
               </div>
               <div class="speaker">
                 <span>9:45 AM</span>
-                <img src="img/speakers/tim_messerschmidt.jpg" />
+                <img src="img/tim.jpg" />
                 <h3>Node.JS Authentication and Data Security</h3>
                 <h4>Tim Messerschmidt <a href="https://twitter.com/SeraAndroid" target="_blank">@SeraAndroid</a></h4>
                 <p>
@@ -311,7 +311,7 @@
               </div>
               <div class="speaker">
                 <span>10:45 AM</span>
-                <img src="img/speakers/mariko_kosaka.jpg" />
+                <img src="img/mariko.jpg" />
                 <h3>Electroknit! - pixel to textile</h3>
                 <h4>Mariko Kosaka <a href="https://twitter.com/kosamari" target="_blank">@kosamari</a></h4>
                 <p>
@@ -324,7 +324,7 @@
               </div>
               <div class="speaker">
                 <span>11:30 AM</span>
-                <img src="img/speakers/prasanna.jpg" />
+                <img src="img/prasanna.jpg" />
                 <h3>Javascript Security - the PenTester's perspective</h3>
                 <h4>Prasanna Kanagasabei, Thoughtworks <a href="https://twitter.com/prasannain" target="_blank">@prasannain</a></h4>
                 <p>
@@ -340,7 +340,7 @@
               </div>
               <div class="speaker">
                 <span>1 PM</span>
-                <img src="img/speakers/matt_mckegg.jpg" />
+                <img src="img/matt_mckegg.jpg" />
                 <h3>
                   I Play the JavaScript
                 </h3>
@@ -354,7 +354,7 @@
               </div>
               <div class="speaker">
                 <span>1:45 PM</span>
-                <img src="img/speakers/hamzeen.jpg" />
+                <img src="img/hamzeen.jpg" />
                 <h3>Unbox Development in Production</h3>
                 <h4>Hamzeen Hameem</h4>
                 <p>
@@ -367,7 +367,7 @@
               </div>
               <div class="speaker">
                 <span>2:15 PM</span>
-                <img src="img/speakers/karen_farzam.jpg" />
+                <img src="img/karen.jpg" />
                 <h3>Let’s make a game with Phaser</h3>
                 <h4>Karen Farzam, WHub HK <a href="https://twitter.com/chleozam" target="_blank">@chleozam</a></h4>
                 <p>
@@ -380,7 +380,7 @@
               </div>
               <div class="speaker">
                 <span>3:45 PM</span>
-                <img src="img/speakers/matthew_podwysocki.jpg" />
+                <img src="img/matthew_podwysocki.jpg" />
                 <h3>Reactive JavaScript at Netflix, Microsoft and the World</h3>
                 <h4>Matthew Podwysocki, Microsoft <a href="https://twitter.com/mattpodwysocki" target="_blank">@mattpodwysocki</a></h4>
                 <p>
@@ -392,7 +392,7 @@
               </div>
               <div class="speaker">
                 <span>4:30 PM</span>
-                <img src="img/speakers/danese_cooper.jpg" />
+                <img src="img/danese_cooper.jpg" />
                 <h3>A keynote</h3>
                 <h4>Danese Cooper, Node.JS Foundation <a href="https://twitter.com/DivaDanese" target="_blank">@DivaDanese</a></h4>
                 <p>
@@ -402,14 +402,14 @@
               </div>
               <div class="speaker">
                 <span>5:15 PM</span>
-                <img src="img/speakers/thomas_gorissen.jpg" />
+                <img src="img/thomas_gorissen.jpg" />
                 <h3>(function Closure(){})()</h3>
                 <h4>Thomas Gorissen <a href="https://twitter.com/serrynaimo" target="_blank">@serrynaimo</a></h4>
                 <p>
                   The guy who organizes this thing with his amazing little team!
                 </p>
               </div>
-              <div class="speaker break" style="height: 93px;">
+              <div class="speaker break" style="height: 95px;">
                 <span>6:30 PM</span>
                 <h3>AfterParty with Paypal</h3>
                 <h4>TBC</h4>
