@@ -579,6 +579,10 @@ body > h1 {
     background-image: -webkit-radial-gradient(50% 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 35%);
     -webkit-animation: unveil 5s 1;
     -webkit-transform: translate(0,300px) scale(1.5);
+    -moz-animation: unveil 5s 1;
+    -moz-transform: translate(0,300px) scale(1.5);
+    animation: unveil 5s 1;
+    transform: translate(0,300px) scale(1.5);
 }
 
 .topbar #intro .js {
@@ -588,15 +592,21 @@ body > h1 {
   height: 70px;
   margin: 0;
   -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  transition: all .5s linear;
 }
 
 .topbar #intro .logo {
-  -webkit-animation: fancy 90s infinite linear;
   position: absolute;
   top: 50px;
   height: 20px;
   width: 100%;
+  -webkit-animation: fancy 90s infinite linear;
   -webkit-transition: all .5s ease-out;
+  -moz-animation: fancy 90s infinite linear;
+  -moz-transition: all .5s ease-out;
+  animation: fancy 90s infinite linear;
+  transition: all .5s ease-out;
 }
 
 .topbar #intro .logo svg {
@@ -606,17 +616,23 @@ body > h1 {
   bottom: 0;
   right: 20px;
   -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  transition: all .5s linear;
 }
 
 .topbar #intro .logo:before {
   top: -28px;
   -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  transition: all .5s linear;
 }
 
 .topbar #intro .logo:after {
   top: -28px;
   left: 190px;
   -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  transition: all .5s linear;
 }
 
 .topbar #intro .overlay {
@@ -626,12 +642,16 @@ body > h1 {
 .topbar #intro .slogan, .topbar #intro .links {
   opacity: 0 !important;
   -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
 }
 
 .topbar #intro {
   height: 80px;
   min-height: 0;
   -webkit-transition: all .6s ease-in;
+  -moz-transition: all .6s ease-in;
+  transition: all .6s ease-in;
 }
 
 
@@ -693,6 +713,18 @@ body > h1 {
 @-webkit-keyframes unveil {
   0%, 70% {
     -webkit-transform: translate(0,0) scale(1);
+  }
+}
+
+@-moz-keyframes unveil {
+  0%, 70% {
+    -moz-transform: translate(0,0) scale(1);
+  }
+}
+
+@keyframes unveil {
+  0%, 70% {
+    transform: translate(0,0) scale(1);
   }
 }
 
@@ -846,14 +878,14 @@ a.skip:hover {
 }
 
 .links a > img {
-  opacity: .35;
+  opacity: .45;
   transition: opacity .2s linear;
   position: relative;
   width: 110px;
 }
 
 .links a:hover > img {
-  opacity: .5;
+  opacity: .6;
 }
 
 #body {
