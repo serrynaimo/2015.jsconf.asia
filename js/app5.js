@@ -26,7 +26,7 @@ $("#subscribeForm").ajaxForm({
 			},3000);
 			setTimeout(function() {
 				window.location = "http://twitter.com/jsconfasia";
-			},1000);
+			},10);
 		}
 	},
 	error: function(r, s) {
