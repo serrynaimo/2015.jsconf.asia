@@ -424,11 +424,6 @@
       </div>
     </section>
 
-    <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
-      <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
-      <div class="msg"><span></span></div>
-    </form>
-
     <section id="sponsors">
       <p class="links">
             <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="width: 150px" /></a>
@@ -445,6 +440,12 @@
             <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
             <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="margin: 3px 0 0" /></a>
         </p>
+
+        <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
+          <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
+          <div class="msg"><span></span></div>
+        </form>
+
     </section>
 
     <section id="footer">
@@ -480,15 +481,6 @@
       ga('create', 'UA-31025490-9', 'auto');
       ga('send', 'pageview');
 
-    </script>
-<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-31025490-8', 'auto');
-      ga('send', 'pageview');
 
    CountDownTimer('Wed, 09 Sep 2015 14:00:00 +0800', 'countdown');
 

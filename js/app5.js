@@ -87,6 +87,9 @@ function next() {
 		setTimeout(function() {
 	 	  $("body").addClass("topbar");
    		}, 7500);
+   		setTimeout(function() {
+	 	  $("body").addClass("bodyvisible");
+   		}, 8000);
 	}
 	slide++;
 }
@@ -107,10 +110,18 @@ $("#subscribeForm input[type='email']").on("focus", function() {
     }
 });
 
-function skip() {
+function skip(e) {
 	slide = 7;
 	next();
+	return false;
 }
+
+$('#intro').click(function(e) {
+	$("body").addClass("topbar");
+	setTimeout(function() {
+	  $("body").addClass("bodyvisible");
+	}, 500);
+});
 
 $('.speaker').click(function(e) {
    $(e.currentTarget).toggleClass('open');
