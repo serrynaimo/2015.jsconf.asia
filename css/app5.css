@@ -928,6 +928,50 @@ a.skip:hover {
 }
 
 
+#location > div {
+  width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#location > div > img {
+  width: 480px;
+  opacity: .35;
+}
+
+#location #reddot {
+  position: absolute;
+  top: 75px;
+  left: 248px;
+  width: 150px;
+  text-align: center;
+}
+
+#location #reddot:after {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: -10px;
+  padding: 3px;
+  border: 2px solid #fff;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+#location #reddot:hover:after {
+  position: absolute;
+  content: "";
+  bottom: -7px;
+  left: -12px;
+  padding: 5px;
+  border: 2px solid #fff;
+}
+
+#location #reddot > img {
+  width: 100px;
+}
+
 #speakers > .day + .day {
   margin-bottom: 120px;
 }
@@ -1091,6 +1135,7 @@ a.skip:hover {
 
 #sponsors {
   clear: both;
+  text-align: center;
 }
 
 

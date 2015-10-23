@@ -102,12 +102,17 @@
       </div>
     </section>
 
+    <section id="location">
+      <div>
+        <img src="img/singapore.png" border="0" />
+        <div id="reddot">
+          <a href="http://www.museum.red-dot.sg" target="_blank"><img src="img/reddot.png" alt="Red Dot Design Museum, Singapore" border="0" /></a>
+        </div>
+      </div>
+    </section>
+
     <span id="schedule"></span>
     <section id="speakers" class="thursday">
-      <h2>Schedule</h2>
-      <p>
-
-      </p>
       <div class="day thursday">
           <h4>Thursday 19th</h4>
                 <div class="speaker break">
@@ -425,8 +430,6 @@
     </form>
 
     <section id="sponsors">
-      <h2>Sponsors</h2>
-      <p><br/></p>
       <p class="links">
             <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="width: 150px" /></a>
             <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="width: 135px" /></a><br/><br/><br/>
