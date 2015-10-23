@@ -368,7 +368,7 @@
               <div class="speaker">
                 <span>2:15 PM</span>
                 <img src="img/karen.jpg" />
-                <h3>Let’s make a game with Phaser</h3>
+                <h3>The route to HTTP/2</h3>
                 <h4>Karen Farzam, WHub HK <a href="https://twitter.com/chleozam" target="_blank">@chleozam</a></h4>
                 <p>
                   Hailing from France, Karen Farzam is an engineer, former JP Morgan Equity Derivatives trader to Web Developer and co-founder of WHub.io. Operating in Hong-Kong she channels her remaining energies supporting female powers in engineering and entrepreneurship.
@@ -380,7 +380,7 @@
               </div>
               <div class="speaker">
                 <span>3:45 PM</span>
-                <img src="img/matthew_podwysocki.jpg" />
+                <img src="img/matt_podwysocki.jpg" />
                 <h3>Reactive JavaScript at Netflix, Microsoft and the World</h3>
                 <h4>Matthew Podwysocki, Microsoft <a href="https://twitter.com/mattpodwysocki" target="_blank">@mattpodwysocki</a></h4>
                 <p>
@@ -409,7 +409,7 @@
                   The guy who organizes this thing with his amazing little team!
                 </p>
               </div>
-              <div class="speaker break" style="height: 95px;">
+              <div class="speaker break">
                 <span>6:30 PM</span>
                 <h3>AfterParty with Paypal</h3>
                 <h4>TBC</h4>

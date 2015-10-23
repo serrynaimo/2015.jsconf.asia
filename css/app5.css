@@ -1072,9 +1072,8 @@ a.skip:hover {
 }
 
 #speakers .speaker h4 a {
-    font-size: .7em;
+    font-size: .9em;
     color: #9AE0FF;
-    font-family: 'Open Sans';
     text-transform: none;
     text-decoration: none;
     margin-left: 5px;
