@@ -267,184 +267,154 @@
           </div>
       </div>
       <div class="day friday">
-                <h4>Friday 20th</h4>
-                    <div class="speaker break">
+              <h4>Friday 20th</h4>
+              <div class="speaker break">
                 <span>8 AM</span>
-                        <h3>Eyes open. We have coffee!</h3>
+                <h3>Wake up! Zopim has coffee for you!</h3>
               </div>
-                    <div class="speaker">
+              <div class="speaker">
                 <span>9 AM</span>
-                <img src="img/speakers/feross.jpg" />
-                        <h3>WebTorrent</h3>
-                <h4>Feross Aboukhadijeh <a href="https://twitter.com/feross" target="_blank">@feross</a></h4>
-                        <p>
-                            This talk will look at WebTorrent, a BitTorrent client for the browser that fully-interoperates with the regular BitTorrent network. WebTorrent uses WebRTC Data Channels and special "hybrid clients" to connect to the wider BitTorrent network. It’s insane to try this.
-                        </p>
+                <img src="img/speakers/p01.jpg" />
+                <h3>Making realtime Audio-Visuals</h3>
+                <h4>Mathieu Henri <a href="https://twitter.com/p01" target="_blank">@p01</a></h4>
                 <p>
-                  Feross is currently building WebTorrent, a streaming BitTorrent client for the browser, powered by WebRTC.
-                  Before that, he built PeerCDN, a peer-to-peer content delivery network to makes sites faster and cheaper.<br/>
-                  He’s a graduate of Stanford and has worked at Quora, Facebook, and Intel and loves "mad science" projects!
+                  The web platform is a wonderful playground of artistic and technical expression. The artists of the web often release amazing creations in the most compact form. But you don't have to be a seasoned developer to express yourself and build your own animations. With a bit practice, anyone can build Audio-Visual demos!<br/>
+                  This talk will go through creative coding, the demoscene, and a range of optimization tricks. Then we will work on a little Audio-Visual demo together.<br/><br/>
+                  I hope this will inspire new JavaScript artists and bring a dash of creativity to our every day problem solving.
+                </p>
+                <p>
+                  Mathieu 'p01' Henri is a JavaScript developer at Opera Software in Oslo, Norway, working on the desktop browser. At night he is a creative coder & demoscene artist specialized in real time audio visual animations in a few hundred bytes for the web platform, PC and Atari ST computers.
                 </p>
               </div>
               <div class="speaker">
                 <span>9:45 AM</span>
-                <img src="img/speakers/peggy.jpg" />
-                        <h3>There and Back Again - A Game Dev’s Tale</h3>
-                <h4>Peggy Kuo, Atlassian <a href="https://twitter.com/pyko" target="_blank">@pyko</a></h4>
-                        <p>
-                            There are two main challenges in creating a game: starting, and finishing. With the plethora of tools at our disposal, it’s quite easy to embark on our pet projects. But sooner or later, we come across problems. Scope creep, unknown unknowns, fragile code and just life in general. It’s at this point that many games falter by the wayside and are eventually shelved.
-                            <br/>
-                            In this talk, I’ll take you through my journey of creating my game Trichroma, and share both the technical and non-technical lessons I learned along the way that enabled me to pull it over the finish line and bring it home.
-                        </p>
+                <img src="img/speakers/tim_messerschmidt.jpg" />
+                <h3>Node.JS Authentication and Data Security</h3>
+                <h4>Tim Messerschmidt <a href="https://twitter.com/SeraAndroid" target="_blank">@SeraAndroid</a></h4>
                 <p>
-                  Peggy is a full stack developer at Atlassian who loves creating things.
-                  She makes everything from stuffed toys to Android apps, and her latest project is a
-                  little game called Trichroma. She co-organises the Girl Geek Dinner and Women Who Code.
-                  But if you really want to know the way to her heart... that would be food!
+                    The arena of proper authentication and data security standards is often some of the most misunderstood, confusing, and tricky aspects of building any Node site, app, or service, and the fear of data breaches with unencrypted or poorly encrypted data doesn’t make it any better.<br/><br/>
+                    We’re going to tackle this field, exploring the proper methodologies for building secure authentication and data security standards. We’ll run through:<br/>
+                    - Building on top of OAuth 2 and OpenID Connect<br/>
+                    - Node middleware services for authentication<br/>
+                    - Working with proper hashing and salting algorithms, and avoiding others, for private user data<br/>
+                    - Common auth and security pitfalls and solutions<br/>
+                    In the end, we’re going to see that by understanding proper data security and authentication standards, pitfalls, and reasons for choosing one solution over another, we can make intelligent decisions on creating a solid infrastructure to protect our users and data.
+                </p>
+                <p>
+                  As a long time mobile and web developer, Tim channels his knowledge and experience as Braintree's Head of Developer Relations. He is passionate about startups and serves as a mentor at multiple incubators and accelerators.<br/>
+                  Prior to joining PayPal, Tim worked with Neofonie Mobile and Samsung focusing on several mobile projects. In his spare time, he leads and creates training classes in all sorts of developer-oriented topics, contributes to Open Source projects and is one of the authors of the Mobile Developer’s Guide to the Galaxy. In addition, he authored numerous articles published in print magazines.
                 </p>
               </div>
-              <div class="speaker break">
-                    <span>10:30 AM</span>
-                  <h3>Have a break</h3>
+              <div class="speaker break" style="height: 109px;">
+                <span>10:30 AM</span>
+                <h3>Have a break and some cake</h3>
               </div>
               <div class="speaker">
-                <span>11 AM</span>
-                <img src="img/speakers/max.jpg" />
-                        <h3>Versioning, syncing &amp; streaming large datasets using Dat + Node</h3>
-                <h4>Max Ogden <a href="https://twitter.com/maxogden" target="_blank">@maxogden</a></h4>
-                        <p>
-                           <a href="http://dat-data.com/" target="_blank">Dat</a> is an open source tool, funded by the Sloan Foundation in the US as part of their Science Tools research funding, that seeks to enable collaboration workflows on top of datasets of any size. The high level goal of the Dat project is to make it easier to work with large scientific datasets in an automated way, which both saves time and also makes reproducibility easier.
-                           The core dat tool is a streaming dataset versioning + replication system developed with a heavy Unix philospohy designed to encourage extreme modularity and enable many third party applications to be built on top.
-                            <br/>
-                            In addition to the core tool we are also developing tools for building and distributing streaming, cross platform data pipelines based on Node.js and Docker.
-                            <br/>
-                            This talk will introduce Dat, talk about how we used Node to build it, and show examples of how to use Node and LevelDB to work with very large datasets.
-                        </p>
+                <span>10:45 AM</span>
+                <img src="img/speakers/mariko_kosaka.jpg" />
+                <h3>Electroknit! - pixel to textile</h3>
+                <h4>Mariko Kosaka <a href="https://twitter.com/kosamari" target="_blank">@kosamari</a></h4>
                 <p>
-                  Max Ogden is a open source software developer who works full time on the Dat project at the United States Open Data Insitute.
-                            He previously worked at Code for America, a US based not-for-profit dedicated to improving technology in cities.
-                            In his spare time Max organizes the NodeSchool community, CSVConf, TacoConf and likes to travel to countries with Cat Cafes.
+                  Electroknit is a craft project to convert graphics into knitted patterns for an electric knitting machine. What does it take to turn a digital image into a physical object like a knitted sweater? The answer is series of image processing operations.
+                  As web engineer, we take it for granted &lt;img src="image.jpeg"&rt; displays an image because it is a "digital photo." Let's look at what "a Pixel" is & how you can manipulate for fun with Canvas API & JavaScript.
+                </p>
+                <p>
+                  Mariko is an engineer who loves data and knitting. When she is not making software at Scripto, she uses code to help her design textiles & organize local JavaScript meetup in New York City called BrooklynJS.
                 </p>
               </div>
               <div class="speaker">
-                <span>11:45 AM</span>
-                <img src="img/speakers/yangbin.jpg" />
-                        <h3>IPCluster – Scaling Zopim’s frontend node servers</h3>
-                <h4>Yang Bin Kwok, Zopim <a href="https://twitter.com/zopim" target="_blank">@zopim</a></h4>
-                        <p>
-                            Realtime applications are easy with Node, but how do you scale out when the load hits? Zopim shares the lessons learnt at scale, as well as their approach to enterprise class software of a simplified network topology eschewing dedicated load balancers and firewalls.
-                        </p>
+                <span>11:30 AM</span>
+                <img src="img/speakers/prasanna.jpg" />
+                <h3>Javascript Security - the PenTester's perspective</h3>
+                <h4>Prasanna Kanagasabei, Thoughtworks <a href="https://twitter.com/prasannain" target="_blank">@prasannain</a></h4>
                 <p>
-                  Yang Bin is a co-founder of Zopim and currently works on simplifying the distribution of
-                  realtime data across their POPs and the frontend. One day, he hopes to open source Zopim’s web
-                  application framework, but in the meantime he dabbles in image processing, visualizations and chinchillas.
+                  Most developers do not get direct access to external Pentesters and their interactions are sadly limited to an exchange of reports and emails. The talk will provide the pen tester's perspective. The participants will hear first hand from a pentester on how they pen test, analyse and exploit web applications. This session will introduce participants to security issues related to JavaScript, JSON and HTML5 and how to identify such issues in the code. Participants will learn how to write secure JavaScript code which leads to fewer security bugs being discovered in the testing phase and therefore spend less time fixing bugs. Emphasis will be on DOM XSS exercises. There will also be a special focus on CORS, covering the abuse of cross domain communications.
                 </p>
+                <p>
+                  Prasanna has worked as a full time hands-on Web Application pen tester for the past 12+ years. His clients have included large international organisations in the e-Commerce, automobile, premium banking and finance, and government spaces. He regular conducts training sessions to up-skill developers to deliver secure and safe solutions. He has presented at popular security events such as nullcon-Delhi, Clubhack, IIT Guwahati and at various meetups. He is one of the community leads in the Singapore security community. His community code contributions include IronSAP, a SAP testing plugin for IronWASP. At present, his interests include Fuzzing.
+                </p>
+              </div>
+              <div class="speaker break" style="height: 109px;">
+                  <span>12:15 PM</span>
+                  <h3>Lunch is served</h3>
               </div>
               <div class="speaker">
-                <span>12:15 PM</span>
-                <img src="img/speakers/slava.jpg" />
-                        <h3>Reactive Programming made simple</h3>
-                <h4>Slava Kim, Meteor <a href="https://twitter.com/imslavko" target="_blank">@imslavko</a></h4>
-                        <p>
-                            Reactive Programming is very useful for building complex user interface and interactions. Unfortunately the most popular form of it is FRP (Functional Reactive Programming) which is not an easy paradigm to learn and use for newcomers. In this talk we will present you a much simpler approach that still preserves all the Reactive Programming properties usually required on day-by-day basis but allows you to use the usual imperative style just in a 1Kb library of pure JS.
-                            <br/>
-                            This talk is suitable for medium-above average programmers who are interested in building user interfaces (although Reactive Programming might appear useful in other parts of a typical application as well). But it can also be useful for novices as this talk has no prerequisites (unlike the mentioned FRP). There will be a pretty simple code examples with a lot of interactivity on the screen. I promise, it will be a good balance between concepts, examples and fun!
-                        </p>
+                <span>1 PM</span>
+                <img src="img/speakers/matt_mckegg.jpg" />
+                <h3>
+                  I Play the JavaScript
+                </h3>
+                <h4>Matt McKegg <a href="https://twitter.com/MattMcKegg" target="_blank">@MattMcKegg</a></h4>
                 <p>
-                            Slava is a core developer at the open-source full-stack JS framework Meteor.
-                            His work includes Meteor’s real-time data updates from databases, client-side caches, packaging
-                            system, Phonegap support and other exciting things. In his free time Slava
-                            constantly tries to educate himself on different fascinating topics of Computer Science.
+                    Find out how I use JavaScript to power my live electronic music performances. Come see (and hear) Web Audio, MIDI, and electron in action!
                 </p>
-              </div>
-              <div class="speaker break">
-                  <span>12:45 PM</span>
-                  <h3>Lunch cravings</h3>
+                <p>
+                    A JavaScript hacker and backyard musician and from Wellington, NZ. Lover of all things open and modular. I spend most of my time pressing buttons of various shapes, sizes and colours. Sometimes these buttons make sounds.
+                </p>
               </div>
               <div class="speaker">
                 <span>1:45 PM</span>
-                <img src="img/speakers/charlie.jpg" />
-                        <h3>Gibbering at Algoraves: JS in Live Audiovisual Performances</h3>
-                <h4>Charlie Roberts, UCLA</h4>
-                        <p>
-                            In electronic music, a live coding performance consists of a performer improvising a piece of music by coding it in front of an audience, while projecting their code for the audience to see. People get together and dance to these performances at events called Algoraves.<br/>
-                            Gibber is a creative coding environment that I originally designed for live coding performances, and it’s created entirely in JavaScript. In my talk I’ll share the audiovisual capabilities of Gibber, what it’s like to perform with it, and how it’s used to teach kids to create electronic music. Along the way I’ll show off some libraries I’ve created that might be useful to creative coders. And finally, I’ll live code some music and visuals that you may or may not dance to.
-                        </p>
+                <img src="img/speakers/hamzeen.jpg" />
+                <h3>Unbox Development in Production</h3>
+                <h4>Hamzeen Hameem</h4>
                 <p>
-                  Charlie is a Postdoctoral Fellow in the AlloSphere Research Group at the California NanoSystems Institute,
-                  where his research explores computer human interaction in virtual reality environments. He is the primary
-                  author of <a href="http://gibber.mat.ucsb.edu" target="_blank">Gibber</a>, a creative coding environment for the browser, and has given
-                  over a dozen performances in the US, Europe and Asia improvising audiovisual art through live coded JavaScript.
+                    Get exposed to a new paradigm of web app development which brings Production and Development environments into a common place. Hence, eliminating the painstaking effort and time spent on moving from Development to Production and get exposed to the Development of Shippable and Demo-able Software from Day One of your project's development phase, the true Agile way. In addition, PHP developers can also look forward to a Framework that supports this approach at the end of the talk.
+                </p>
+                <p>
+                  Hamzeen is a software engineer and a practitioner of agile with expertise on Java, PHP, JS, C++, Computer Vision, & Signal Processing. He holds a bachelor's degree in Software Engineering from University of Westminster, London & currently employed at Virtusa. Now he counts over 5 years of experience in Design & Development of Commercial as well as Research-Oriented applications.<br/>
+                  His special interests include ubiquitous computing, augmented reality, physical computing, generative art, design patterns & tangible interfaces. During leisure, he enjoys reading, blogging or playing table tennis & he thinks 'math is art in disguise'. More about him can be found at <a href="http://hamzeen.github.io" target="_blank">hamzeen.github.io</a>
                 </p>
               </div>
               <div class="speaker">
-                <span>2:30 PM</span>
-                <img src="img/speakers/gabe.jpg" />
-                        <h3>Let’s make a game with Phaser</h3>
-                <h4>Gabe Hollombe, Neo <a href="https://twitter.com/gabehollombe" target="_blank">@gabehollombe</a></h4>
-                        <p>
-                            These days, we’re spoiled for choice when it comes to HTML5 game frameworks. But with so many frameworks out there, it’s easy to feel like you might be picking the wrong one for your next (or first) project. Each framework has their own way of doing things, and it can feel like a big commitment to spend time learning a framework before you know everything it’s capable of and if you like its API enough to stick with it.
-                            <br/>
-                            I’ve used many of the popular HTML5 frameworks over the last few years, and Phaser is my favorite. It’s got everything you’re likely to need (sprites, tilemaps, sound, animation, canvas/webgl, mobile support), a very active community and an extensive suite of online examples (over 320 playable demos).
-                            <br/>
-                            A conference talk isn’t enough time to show off everything, but I’ll give you a tour of Phaser’s features that you’re most likely to care about. I’ll give you enough familiarity that you’ll feel comfortable getting started with Phaser, and excited by the possibilities.
-                        </p>
+                <span>2:15 PM</span>
+                <img src="img/speakers/karen_farzam.jpg" />
+                <h3>Let’s make a game with Phaser</h3>
+                <h4>Karen Farzam, WHub HK <a href="https://twitter.com/chleozam" target="_blank">@chleozam</a></h4>
                 <p>
-                  Gabe is a full-stack senior engineer at Neo Innovation, with a thirst for knowledge and a passion for
-                  sharing what he’s learned. He has spoken in on four different continents on topics including JavaScript,
-                  Ruby, Vim, and HTML5 Game development.
+                  Hailing from France, Karen Farzam is an engineer, former JP Morgan Equity Derivatives trader to Web Developer and co-founder of WHub.io. Operating in Hong-Kong she channels her remaining energies supporting female powers in engineering and entrepreneurship.
                 </p>
               </div>
-              <div class="speaker">
-                <span>3:00 PM</span>
-                <img src="img/speakers/ritesh.jpg" />
-                        <h3>Lightning branches - A way to supercharge delivery of features</h3>
-                <h4>Ritesh Angural, Redmart <a href="https://twitter.com/ringular" target="_blank">@ringular</a></h4>
-                        <p>
-                            I will be talking about the "No talk all action" approach we take at RedMart for feature development. You’ll learn how we supercharge development and get code in production fast with an opinionated and automated development workflow. Hint: It’s a cocktail of Git, JS (of course), Chef, Devops & killing pointless meetings.
-                        </p>
-                <p>
-                  Ritesh is an Engineer working on the next generation Ecommerce platform at RedMart, currently working on the frontend and continuous delivery.
-                  Apart from coding in JavaScript & Ruby, he loves extracting a perfect espresso & scoring goals while wearing the Juventus jersey!
-                </p>
-              </div>
-              <div class="speaker break">
+              <div class="speaker break" style="height: 109px;">
                   <span>3:30 PM</span>
-                  <h3>Moah foood</h3>
+                  <h3>Show &amp; Tell</h3>
               </div>
               <div class="speaker">
-                <span>4 PM</span>
-                <img src="img/speakers/simon.jpg" />
-                        <h3>Deep Space - A simulation drama</h3>
-                <h4>Simon Swain, Modus Interactive <a href="https://twitter.com/simon_swain" target="_blank">@simon_swain</a></h4>
-                        <p>
-                            Starting from bacteria and moving up the food chain, we’ll look at the uncanny way simple rules can create complex results. Along the way we’ll try and conquer the universe. Expect spaceships, explosions, mass extinction and some Javascript.
-                        </p>
+                <span>3:45 PM</span>
+                <img src="img/speakers/matthew_podwysocki.jpg" />
+                <h3>Reactive JavaScript at Netflix, Microsoft and the World</h3>
+                <h4>Matthew Podwysocki, Microsoft <a href="https://twitter.com/mattpodwysocki" target="_blank">@mattpodwysocki</a></h4>
                 <p>
-                  Simon has been building the web since way back, seeing it evolve from obscure novelty to mainstream dominance.
-                   Currently he is designing and building realtime cloud solutions for connected devices. Simon created the
-                   Straw library and is a regular presenter at SydJS. On the side, he’s still trying to work out how to do
-                   Wing Chun properly.
+                  What’s does a mouse drag event have in common with an Array of numbers? The answer to this question may surprise you: they are both collections. This key insight holds the key to dramatically simplifying asynchronous programming in JavaScript. We will talk about its usage at Netflix, Slack Microsoft solving concrete examples.
+                </p>
+                <p>
+                  Matthew is a Principal SDE and open sourcerer at Microsoft with a focus on the Internet of Things, Reactive Programming At All Scales and teaching the next generation how to code. He currently works on the Reactive Extensions for all languages including JavaScript. He is passionate about open source, having helped the Node.js effort on Windows, to open sourcing many libraries at Microsoft.
                 </p>
               </div>
               <div class="speaker">
-                <span>4:45 PM</span>
-                <img src="img/speakers/mikeal.jpg" />
-                        <h3>Future of Node</h3>
-                <h4>Mikeal Rogers, Digital Ocean <a href="https://twitter.com/mikeal" target="_blank">@mikeal</a></h4>
-                        <p>
-                            The node community has change tremendously as it has evolved over the last 5 years. Some of the most modern and progressive practices in open source are being tested to great success in this relatively new and dynamic community. While the core project has struggled to release and attract new contributors perhaps the future of node lies not in its central project but in the community that is continuing to grow and flourish.
-                        </p>
+                <span>4:30 PM</span>
+                <img src="img/speakers/danese_cooper.jpg" />
+                <h3>A keynote</h3>
+                <h4>Danese Cooper, Node.JS Foundation <a href="https://twitter.com/DivaDanese" target="_blank">@DivaDanese</a></h4>
                 <p>
-                  Mikeal is the Director of Evangelism at DigitalOcean and the creator of request, NodeConf and JSFest.
+                  Danese is a programmer, computer scientist, and an advocate of open source software. She has managed teams at Symantec and Apple Inc. and for six years served as Chief Open Source Evangelist for Sun Microsystems before leaving to serve as Senior Director for Open Source Strategies at Intel. She advised on open source policy to the R community while at REvolution Computing (now Revolution Analytics), and she served from February 2010 to July 2011 as Chief Technical Officer for the Wikimedia Foundation.<br/>
+                  She currently works for PayPal as their Head of Open Source and also runs DaneseWorks, a successful consultancy to companies wishing to pursue open source strategies, which has served the SETI Foundation, Harris Corporation and the Bill & Melinda Gates Foundation among other clients. She is Chairwoman of the Node.js Foundation, a Director on the board of the Drupal Association, a board advisor for Mozilla, the Open Source Hardware Association and Ushahidi, and has served since 2005 as a Member of the Apache Software Foundation. She was a board member for 10 years at Open Source Initiative.
                 </p>
               </div>
-              <div class="speaker break">
-                <span>6 PM</span>
-                        <h3>AfterParty with Paypal</h3>
-                        <h4>TBC</h4>
+              <div class="speaker">
+                <span>5:15 PM</span>
+                <img src="img/speakers/thomas_gorissen.jpg" />
+                <h3>(function Closure(){})()</h3>
+                <h4>Thomas Gorissen <a href="https://twitter.com/serrynaimo" target="_blank">@serrynaimo</a></h4>
+                <p>
+                  The guy who organizes this thing with his amazing little team!
+                </p>
               </div>
-                </div>
+              <div class="speaker break" style="height: 93px;">
+                <span>6:30 PM</span>
+                <h3>AfterParty with Paypal</h3>
+                <h4>TBC</h4>
+              </div>
+            </div>
       </div>
     </section>
 
