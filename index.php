@@ -106,7 +106,7 @@
       <div>
         <img src="img/singapore.png" border="0" />
         <div id="reddot">
-          <a href="http://www.museum.red-dot.sg" target="_blank"><img src="img/reddot.png" alt="Red Dot Design Museum, Singapore" border="0" /></a>
+          <a href="https://www.google.de/maps/place/Red+Dot+Design+Museum+Singapore/@1.3207072,103.8400064,12z/data=!4m2!3m1!1s0x31da1912c4552ba9:0x7e86825617f4eca4" target="_blank"><img src="img/reddot.png" alt="Red Dot Design Museum, Singapore" border="0" /></a>
         </div>
       </div>
     </section>
