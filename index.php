@@ -372,6 +372,10 @@
                 <h3>The route to HTTP/2</h3>
                 <h4>Karen Farzam, WHub HK <a href="https://twitter.com/chleozam" target="_blank">@chleozam</a></h4>
                 <p>
+                    HTTP/1.1 has served the Web well for more than fifteen years, but its age is starting to show.<br/>
+                    Welcome to HTTP 2, a more modern protocol that essentially speeds web browsing up using new ways of transporting data between the browser and server across the internet.
+                </p>
+                <p>
                   Hailing from France, Karen Farzam is an engineer, former JP Morgan Equity Derivatives trader to Web Developer and co-founder of WHub.io. Operating in Hong-Kong she channels her remaining energies supporting female powers in engineering and entrepreneurship.
                 </p>
               </div>
