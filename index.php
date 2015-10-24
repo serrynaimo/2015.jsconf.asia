@@ -455,7 +455,7 @@
         <br/>
         JSConf.Asia 2015 Singapore is part of Asia’s<br/> first community organized web developer festival.<br/><br/>
         <a href="http://jsconf.com">JSConf around the world</a><br/><br/>
-        Checkout what we did in the past:<br/><a href="http://2014.jsconf.asia" target="_blank">JSConf.Asia 2014</a>
+        Check out what we’ve done in the past:<br/><a href="http://2014.jsconf.asia" target="_blank">JSConf.Asia 2014</a>
          | <a href="http://2013.jsconf.asia" target="_blank">JSConf.Asia 2013</a>
          | <a href="http://2012.jsconf.asia" target="_blank">JSCamp.Asia 2012</a><br/><br/><br/>
         A Nerdherd Pte. Ltd. event<br/>
