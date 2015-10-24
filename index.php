@@ -60,7 +60,7 @@
     <div class="text2"></div>
   </section>//-->
   <section class="slide slide4">
-    <div class="text text2">... just a few weeks left!</div>
+    <div class="text text2">... and just a few weeks left!</div>
   </section>
 	<section id="intro" class="slide slide5">
 	<div>
