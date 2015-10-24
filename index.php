@@ -93,7 +93,7 @@
         <i>It's a bit like TED, just for web devs.</i>
       </p>
       <div style="text-align: center;">
-        <a href="https://www.eventnook.com/event/devfestasia2015/home" class="button">Get your ticket</a>
+        <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" class="button">Get your ticket</a>
       </div>
     </section>
 
