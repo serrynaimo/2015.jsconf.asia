@@ -89,7 +89,7 @@
         What is <i>this</i>, you may ask? Well, JSConf.Asia brings Southeast Asia's open web developer community together to exchange, to learn and entertain.
         We showcase and teach the abilities of the web platform and inspire the next generation of tools, methods and solutions.
         Come for the many amazing talks, exchange and collaborate at our coffee bar and make new friends over afternoon drinks.
-        As with JavaScript, you've to step in, take a break and find out yourself what <i>this</i> is. All we want to give away ahead of time is:<br/><br/>
+        As with JavaScript, you've to step in, take a break and find out yourself what <i>this</i> is. All we want to share ahead of time is:<br/><br/>
         <i>It's a bit like TED, just for web devs.</i>
       </p>
       <div style="text-align: center;">
