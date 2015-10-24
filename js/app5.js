@@ -77,9 +77,9 @@ function next() {
 		$(".slide"+(slide-1)).removeClass('visible');
 		$(".slide"+slide).addClass('visible');
 	}
-	if(slide === 6) {
+	if(slide === 5) {
 		$(".skip").hide();
-		$(".slide:not(.slide6)").removeClass('visible');
+		$(".slide:not(.slide5)").removeClass('visible');
 
 		setTimeout(function() {
 			$(".links").css("opacity", "1");
@@ -111,12 +111,13 @@ $("#subscribeForm input[type='email']").on("focus", function() {
 });
 
 function skip(e) {
-	slide = 6;
+	slide = 5;
 	next();
 	return false;
 }
 
 $('#intro').click(function(e) {
+    $("#body").scrollTop(0);
 	$("body").addClass("topbar");
 	setTimeout(function() {
 	  $("body").addClass("bodyvisible");

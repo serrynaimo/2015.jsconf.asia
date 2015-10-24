@@ -53,16 +53,16 @@
     <div class="text">Real-life Firefox</div>
     <div class="text2"></div>
   </section>
-  <section class="slide slide4">
+  <!--<section class="slide slide4">
     <img src="img/danese_cooper.jpg" />
     <div class="name">Danese Cooper</div>
     <div class="text">Open Source Advocat</div>
     <div class="text2"></div>
+  </section>//-->
+  <section class="slide slide4">
+    <div class="text text2">... just a few weeks left!</div>
   </section>
-  <section class="slide slide5">
-    <div class="text text2">... and Chairwoman of the Node.JS Foundation</div>
-  </section>
-	<section id="intro" class="slide slide6">
+	<section id="intro" class="slide slide5">
 	<div>
 		<div class="js"><a class="logo" href="http://twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
 		<g id="logo">
@@ -86,7 +86,7 @@
     <section id="about">
       <p>
         <br/>
-        What is <i>this</i>, you may ask? Well, at JSConf.Asia Southeast Asia's open web developer community comes together to exchange, to learn and entertain.
+        What is <i>this</i>, you may ask? Well, JSConf.Asia brings Southeast Asia's open web developer community together to exchange, to learn and entertain.
         We showcase and teach the abilities of the web platform and inspire the next generation of tools, methods and solutions.
         Come for the many amazing talks, exchange and collaborate at our coffee bar and make new friends over afternoon drinks.
         As with JavaScript, you've to step in, take a break and find out yourself what <i>this</i> is. All we want to give away ahead of time is:<br/><br/>
@@ -117,7 +117,7 @@
           <div class="speaker break">
             <span>9 AM</span>
             <h3>Opening</h3>
-            <h4>JSConf.Asia staff</h4>
+            
           </div>
           <div class="speaker">
             <span>9:30 AM</span>
@@ -256,7 +256,7 @@
           <div class="speaker">
             <span>5:15 PM</span>
             <img src="img/chris_heilmann.jpg" />
-            <h3>Story time: Towards Universal JavaScript</h3>
+            <h3>Overboard.js</h3>
             <h4>Christian Heilmann, Microsoft <a href="https://twitter.com/codepo8" target="_blank">@codepo8</a></h4>
             <p>
               There's a daily cool new thing in the world of JavaScript you need to know or you will fall behind. Or at least that is how it feels like. Don't feel bad, don't get frustrated.<br/>
@@ -367,7 +367,7 @@
                 </p>
               </div>
               <div class="speaker">
-                <span>2:15 PM</span>
+                <span>2:30 PM</span>
                 <img src="img/karen.jpg" />
                 <h3>The route to HTTP/2</h3>
                 <h4>Karen Farzam, WHub HK <a href="https://twitter.com/chleozam" target="_blank">@chleozam</a></h4>
@@ -376,11 +376,11 @@
                 </p>
               </div>
               <div class="speaker break" style="height: 109px;">
-                  <span>3:30 PM</span>
-                  <h3>Show &amp; Tell</h3>
+                  <span>3:15 PM</span>
+                  <h3>Audience lightning talks</h3>
               </div>
               <div class="speaker">
-                <span>3:45 PM</span>
+                <span>4 PM</span>
                 <img src="img/matt_podwysocki.jpg" />
                 <h3>Reactive JavaScript at Netflix, Microsoft and the World</h3>
                 <h4>Matthew Podwysocki, Microsoft <a href="https://twitter.com/mattpodwysocki" target="_blank">@mattpodwysocki</a></h4>
@@ -391,7 +391,7 @@
                   Matthew is a Principal SDE and open sourcerer at Microsoft with a focus on the Internet of Things, Reactive Programming At All Scales and teaching the next generation how to code. He currently works on the Reactive Extensions for all languages including JavaScript. He is passionate about open source, having helped the Node.js effort on Windows, to open sourcing many libraries at Microsoft.
                 </p>
               </div>
-              <div class="speaker">
+              <!--<div class="speaker">
                 <span>4:30 PM</span>
                 <img src="img/danese_cooper.jpg" />
                 <h3>A keynote</h3>
@@ -400,9 +400,9 @@
                   Danese is a programmer, computer scientist, and an advocate of open source software. She has managed teams at Symantec and Apple Inc. and for six years served as Chief Open Source Evangelist for Sun Microsystems before leaving to serve as Senior Director for Open Source Strategies at Intel. She advised on open source policy to the R community while at REvolution Computing (now Revolution Analytics), and she served from February 2010 to July 2011 as Chief Technical Officer for the Wikimedia Foundation.<br/>
                   She currently works for PayPal as their Head of Open Source and also runs DaneseWorks, a successful consultancy to companies wishing to pursue open source strategies, which has served the SETI Foundation, Harris Corporation and the Bill & Melinda Gates Foundation among other clients. She is Chairwoman of the Node.js Foundation, a Director on the board of the Drupal Association, a board advisor for Mozilla, the Open Source Hardware Association and Ushahidi, and has served since 2005 as a Member of the Apache Software Foundation. She was a board member for 10 years at Open Source Initiative.
                 </p>
-              </div>
-              <div class="speaker">
-                <span>5:15 PM</span>
+              </div>//-->
+              <div class="speaker" style="height: 200px;">
+                <span>4:45 PM</span>
                 <img src="img/thomas_gorissen.jpg" />
                 <h3>(function Closure(){})()</h3>
                 <h4>Thomas Gorissen <a href="https://twitter.com/serrynaimo" target="_blank">@serrynaimo</a></h4>
@@ -411,9 +411,9 @@
                 </p>
               </div>
               <div class="speaker break">
-                <span>6:30 PM</span>
+                <span>6:00 PM</span>
                 <h3>AfterParty with Paypal</h3>
-                <h4>TBC</h4>
+                <h4>offsite</h4>
               </div>
             </div>
       </div>
