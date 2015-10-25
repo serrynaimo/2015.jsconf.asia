@@ -206,10 +206,7 @@
                 This talk will draw ideas from one of the most miraculous structures of our Universe - one which has withstood eons of evolution - and show you the striking resemblance between a cell and an instance object. This newly gained insight will point us to a new approach to class composition other than traditional mixins or traits. We’ll then implement this mechanism using advanced language constructs in ES2015 and beyond, and see how it may help to catalyze the Cambrian explosion of next generation JavaScript apps.
             </p>
             <p>
-              Martin is the organizer of HHJS and &quot;Head of Development&quot; at Ubilabs. His company develops
-              applications based on the Google Maps API for an international client base.
-              He is the maniac who built the spinning globe in 1K of JavaScript and hacked Tetris in less than 140
-              bytes. He is an active speaker at conferences and loves to share the latest insights with the community.
+              After studying chemistry and molecular biology and working as a telescope operator on Mauna Loa trying to be astrophysical, the adventurous journey of G. Kay Lee is now on hiatus since he has found his inner tranquility in being a frontend artisan. He’s one of the coorganizers of AngularJS.tw, the author of ngStorage, a proponent of ES2015+, and a staff engineer at KKBOX.
             </p>
           </div>
           <div class="speaker">
