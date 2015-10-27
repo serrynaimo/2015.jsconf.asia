@@ -117,7 +117,7 @@
           <div class="speaker break">
             <span>9 AM</span>
             <h3>Opening</h3>
-            
+
           </div>
           <div class="speaker">
             <span>9:30 AM</span>
@@ -231,7 +231,7 @@
             <h3>Simplicity through Functions</h3>
             <h4>Isaac Johnston <a href="https://twitter.com/superstructor" target="_blank">@superstructor</a></h4>
             <p>
-              Can functional programming concepts be applied in JavaScript to simplify building software? Using things you already know, we will explore a new style of writing JavaScript in ES7.
+              Can functional programming concepts be applied in JavaScript to simplify building software? Using things you already know, we will explore a new style of writing JavaScript in ES2015+.
             </p>
             <p>
               Isaac is continually exploring different ways to write JavaScript. Works tirelessly defending his home of middle earth's and other far off land's communications at SMX, a global cloud security and carrier-grade email provider. Passionate about functional programming, he is currently prototyping SMX's next generation front-end stack in ClojureScript and React. Tinkers in his spare time on home automation and autonomous space robot projects.
