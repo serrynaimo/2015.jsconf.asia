@@ -431,6 +431,7 @@
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
             <a href="http://zopim.com" target="_blank"><img src="img/zopim.png" style="width: 78px;" /></a>
             <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
+            <a href="http://skyscanner.com" target="_blank"><img src="img/skyscanner.png" style="width: 120px;"/></a>
             <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
             <a href="http://kkbox.com" target="_blank"><img src="img/kkbox.png" style="width: 70px;" /></a>
             <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
