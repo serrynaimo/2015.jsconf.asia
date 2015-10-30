@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2015</title>
 	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app5.css" />
+	<link rel="stylesheet" type="text/css" href="css/app6.css" />
 	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
@@ -93,7 +93,8 @@
         <i>It's a bit like TED, just for web devs.</i>
       </p>
       <div style="text-align: center;">
-        <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" class="button">Get your ticket</a>
+        <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" class="button">Get your ticket</a><br/>
+        <a href="why-attend.pdf" class="hint">Need to convince your employer?</a>
       </div>
     </section>
 
