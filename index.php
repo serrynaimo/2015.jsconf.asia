@@ -230,7 +230,7 @@
             <span>3:45 PM</span>
             <img src="img/isaac_johnston.jpg" />
             <h3>Simplicity through Functions</h3>
-            <h4>Isaac Johnston <a href="https://twitter.com/superstructor" target="_blank">@superstructor</a></h4>
+            <h4>Isaac Johnston, SMX <a href="https://twitter.com/superstructor" target="_blank">@superstructor</a></h4>
             <p>
               Can functional programming concepts be applied in JavaScript to simplify building software? Using things you already know, we will explore a new style of writing JavaScript in ES2015+.
             </p>
