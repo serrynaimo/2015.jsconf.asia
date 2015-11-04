@@ -212,7 +212,7 @@
             <span>3:45 PM</span>
             <img src="img/isaac_johnston.jpg" />
             <h3>Simplicity through Functions</h3>
-            <h4>Isaac Johnston <a href="https://twitter.com/superstructor" target="_blank">@superstructor</a></h4>
+            <h4>Isaac Johnston, SMX <a href="https://twitter.com/superstructor" target="_blank">@superstructor</a></h4>
             <p>
               Can functional programming concepts be applied in JavaScript to simplify building software? Using things you already know, we will explore a new style of writing JavaScript in ES2015+.
             </p>
@@ -411,6 +411,7 @@
             <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
             <a href="http://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
+            <a href="http://tradegecko.com" target="_blank"><img src="img/tradegecko.png" /></a>
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
             <a href="http://zopim.com" target="_blank"><img src="img/zopim.png" style="width: 78px;" /></a>
             <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
