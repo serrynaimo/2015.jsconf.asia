@@ -36,33 +36,15 @@
     <div class="title">"It's a bit like TED, just for web devs"</div>
   </section>
   <section class="slide slide1">
-    <img src="img/matt_podwysocki.jpg" />
-    <div class="name">Matthew Podwysocki</div>
-    <div class="text">Reactive coder</div>
-    <div class="text2"></div>
+    <div class="text text2">... and our final speaker is ...</div>
   </section>
   <section class="slide slide2">
-    <img src="img/prasanna.jpg" />
-    <div class="name">Prasanna Kanagasabai</div>
-    <div class="text">A Fuzzing PenTester</div>
-    <div class="text2"></div>
-  </section>
-  <section class="slide slide3">
-    <img src="img/chris_heilmann.jpg" />
-    <div class="name">Christian Heilmann</div>
-    <div class="text">Real-life Firefox</div>
-    <div class="text2"></div>
-  </section>
-  <!--<section class="slide slide4">
     <img src="img/danese_cooper.jpg" />
     <div class="name">Danese Cooper</div>
-    <div class="text">Open Source Advocat</div>
+    <div class="text">Chairwoman of the Node.JS Foundation</div>
     <div class="text2"></div>
-  </section>//-->
-  <section class="slide slide4">
-    <div class="text text2">... and just a few weeks left!</div>
   </section>
-	<section id="intro" class="slide slide5">
+	<section id="intro" class="slide slide3">
 	<div>
 		<div class="js"><a class="logo" href="http://twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
 		<g id="logo">
@@ -469,7 +451,7 @@
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
 	<script type="text/javascript" src="js/jquery.form.min.js"></script>
-	<script src="js/app5.js"></script>
+	<script src="js/app6.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
