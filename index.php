@@ -375,7 +375,7 @@
                   Matthew is a Principal SDE and open sourcerer at Microsoft with a focus on the Internet of Things, Reactive Programming At All Scales and teaching the next generation how to code. He currently works on the Reactive Extensions for all languages including JavaScript. He is passionate about open source, having helped the Node.js effort on Windows, to open sourcing many libraries at Microsoft.
                 </p>
               </div>
-              <!--<div class="speaker">
+              <div class="speaker">
                 <span>4:30 PM</span>
                 <img src="img/danese_cooper.jpg" />
                 <h3>A keynote</h3>
@@ -384,9 +384,9 @@
                   Danese is a programmer, computer scientist, and an advocate of open source software. She has managed teams at Symantec and Apple Inc. and for six years served as Chief Open Source Evangelist for Sun Microsystems before leaving to serve as Senior Director for Open Source Strategies at Intel. She advised on open source policy to the R community while at REvolution Computing (now Revolution Analytics), and she served from February 2010 to July 2011 as Chief Technical Officer for the Wikimedia Foundation.<br/>
                   She currently works for PayPal as their Head of Open Source and also runs DaneseWorks, a successful consultancy to companies wishing to pursue open source strategies, which has served the SETI Foundation, Harris Corporation and the Bill & Melinda Gates Foundation among other clients. She is Chairwoman of the Node.js Foundation, a Director on the board of the Drupal Association, a board advisor for Mozilla, the Open Source Hardware Association and Ushahidi, and has served since 2005 as a Member of the Apache Software Foundation. She was a board member for 10 years at Open Source Initiative.
                 </p>
-              </div>//-->
-              <div class="speaker" style="height: 200px;">
-                <span>4:45 PM</span>
+              </div>
+              <div class="speaker">
+                <span>5:15 PM</span>
                 <img src="img/thomas_gorissen.jpg" />
                 <h3>(function Closure(){})()</h3>
                 <h4>Thomas Gorissen <a href="https://twitter.com/serrynaimo" target="_blank">@serrynaimo</a></h4>
@@ -396,7 +396,7 @@
               </div>
               <div class="speaker break">
                 <span>6:00 PM</span>
-                <h3>AfterParty with Paypal</h3>
+                <h3>AfterParty with Braintree</h3>
                 <h4>offsite</h4>
               </div>
             </div>
