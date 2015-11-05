@@ -412,6 +412,8 @@
             <a href="http://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
             <a href="http://tradegecko.com" target="_blank"><img src="img/tradegecko.png" /></a>
+            <a href="http://myrepublic.com.sg" target="_blank"><img src="img/myrepublic.png" /></a>
+            <a href="http://hired.com" target="_blank"><img src="img/hired.png" /></a>
             <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
             <a href="http://zopim.com" target="_blank"><img src="img/zopim.png" style="width: 78px;" /></a>
             <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
