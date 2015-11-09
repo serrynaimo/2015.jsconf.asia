@@ -98,6 +98,7 @@
             <a href="http://kkbox.com" target="_blank"><img src="img/kkbox.png" style="width: 70px;" /></a>
             <a href="http://particle.io" target="_blank"><img src="img/particle.png" style="width: 45px;" /></a>
             <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="margin: 3px 0 0" /></a>
+            <a href="https://themeetapp.com" target="_blank"><img src="img/meetapp.png" style="width: 130px;margin: 3px 0 0" /></a>
         </div>
 	</div>
 	</section>
