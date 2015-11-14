@@ -195,10 +195,10 @@
           <div class="speaker">
             <span>2:45 PM</span>
             <img src="img/alexandre_strzelewicz.jpg" />
-            <h3>Scalable Micro Services with Node.JS</h3>
+            <h3>Production applications with PM2</h3>
             <h4>Alexandre Strzelewicz <a href="https://twitter.com/strzel_a" target="_blank">@strzel_a</a></h4>
             <p>
-              I will speak about how PM2 works, then I will do a live coding session to build a simple micro service oriented application. Once the application built I will speak about the PM2 deployment system and will setup it. To finish I will connect PM2 to Keymetrics.io and add some smart probe to get a fully functionnal and solid production workflow.
+              Once your application is developed, switching it to live production is a painful experience. From process management, deployment, monitoring, bug tracking, orchestration... a lot of techniques and methodologies must be taken into account to provide a quality application. This is where PM2 comes into the game, providing a framework to harden your Node.js application and super charge your production workflow.
             </p>
             <p>
               Alexandre is a full stack JavaScript developer, technologist and the author of PM2, a well known process manager for production Node.js applications. He is also CEO & co-founder of the startup keymetrics.io, a supervizion solution built on top of PM2.
