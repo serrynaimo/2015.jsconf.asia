@@ -36,7 +36,7 @@
     <div class="title">"It's a bit like TED, just for web devs"</div>
   </section>
   <section class="slide slide1">
-    <div class="text text2">Thank you everybody for coming! We had a blast!</div>
+    <div class="text text2">Thank you everybody for coming!<br/>We had a blast!</div>
   </section>
 	<section id="intro" class="slide slide2">
 	<div>
