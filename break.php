@@ -1,3 +1,4 @@
+
 <?php
 date_default_timezone_set('Asia/Singapore');
 ?>
@@ -9,7 +10,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <meta charset="UTF-8">
   <title>JSConf.Asia Singapore 2015</title>
-  <link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/break.css" />
   <link rel="shortcut icon" href="favicon.png" >
   <?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
@@ -31,6 +32,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
       <div class="break__left">
         <div class="logo-container">
           <a class="logo" href="http://twitter.com/jsconfasia">
+            <p class="logo__dates">19 + 20 nov 2015 <br> Singapore</p>
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
               <g id="logo">
                 <rect id="background" x="0" y="0" width="630" height="630" fill="none"></rect>
@@ -58,7 +60,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                 <img src="img/smove.png" style="">
               </div>
               <div class="sponsor">
-                <img src="img/clubmate.png" style="width: 50px;">
+                <img src="img/clubmate.png" style="width: 80px;">
               </div>
               <div class="sponsor">
                 <img src="img/redmart.png" style="">
