@@ -36,15 +36,9 @@
     <div class="title">"It's a bit like TED, just for web devs"</div>
   </section>
   <section class="slide slide1">
-    <div class="text text2">... and our final speaker is ...</div>
+    <div class="text text2">Thank you everybody for coming! We had a blast!</div>
   </section>
-  <section class="slide slide2">
-    <img src="img/danese_cooper.jpg" />
-    <div class="name">Danese Cooper</div>
-    <div class="text">Chairwoman of the Node.JS Foundation</div>
-    <div class="text2"></div>
-  </section>
-	<section id="intro" class="slide slide3">
+	<section id="intro" class="slide slide2">
 	<div>
 		<div class="js"><a class="logo" href="http://twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
 		<g id="logo">
