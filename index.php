@@ -68,10 +68,10 @@
         As with JavaScript, you've to step in, take a break and find out yourself what <i>this</i> is. All we want to share ahead of time is:<br/><br/>
         <i>It's a bit like TED, just for web devs.</i>
       </p>
-      <div style="text-align: center;">
-        <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" class="button">Get your ticket</a><br/>
+      <!--<div style="text-align: center;">
+        <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" class="button">Sold</a><br/>
         <a href="why-attend.pdf" class="hint">Need to convince your employer?</a>
-      </div>
+      </div>//-->
     </section>
 
     <section id="location">
