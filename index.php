@@ -35,10 +35,7 @@
   <section class="slide slide0">
     <div class="title">"It's a bit like TED, just for web devs"</div>
   </section>
-  <section class="slide slide1">
-    <div class="text text2">Thank you everybody for coming!<br/>We had a blast!</div>
-  </section>
-	<section id="intro" class="slide slide2">
+	<section id="intro" class="slide slide1">
 	<div>
 		<div class="js"><a class="logo" href="http://twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
 		<g id="logo">
@@ -68,10 +65,10 @@
         As with JavaScript, you've to step in, take a break and find out yourself what <i>this</i> is. All we want to share ahead of time is:<br/><br/>
         <i>It's a bit like TED, just for web devs.</i>
       </p>
-      <!--<div style="text-align: center;">
-        <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" class="button">Sold</a><br/>
-        <a href="why-attend.pdf" class="hint">Need to convince your employer?</a>
-      </div>//-->
+      <div style="text-align: center;">
+        <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshGpDJn60AwbJ6xegSHe_cDh" class="button">Watch the videos!</a><br/>
+        <!--<a href="why-attend.pdf" class="hint">Need to convince your employer?</a>-->
+      </div>
     </section>
 
     <section id="location">
