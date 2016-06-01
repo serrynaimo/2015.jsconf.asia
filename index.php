@@ -14,7 +14,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2015</title>
-	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/app7.css" />
 	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
@@ -23,8 +23,8 @@
 	<?php } ?>
 	<meta property="og:title" content="JSConf.Asia - 19+20 Nov 2015, Singapore"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="http://2015.jsconf.asia/"/>
-	<meta property="og:image" content="http://2015.jsconf.asia/assets/og_jsconfasia.png"/>
+	<meta property="og:url" content="//2015.jsconf.asia/"/>
+	<meta property="og:image" content="//2015.jsconf.asia/assets/og_jsconfasia.png"/>
 	<meta property="og:site_name" content="JSConf.Asia"/>
 	<meta property="og:description" content='"It‘s a bit like TED just for web devs" Spread the word. Follow us on Twitter @jsconfasia'/>
 	<meta name="title" content="JSConf.Asia - 19+20 Nov 2015, Singapore"/>
@@ -42,7 +42,7 @@
   </section>
 	<section id="intro" class="slide slide1">
 	<div>
-		<div class="js"><a class="logo" href="http://twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
+		<div class="js"><a class="logo" href="//twitter.com/jsconfasia"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 630 630">
 		<g id="logo">
 		  <rect id="background" x="0" y="0" width="630" height="630" fill="none" />
 		  <path id="j" fill="#ffffff" d="m 165.65,526.47375 48.2125,-29.1775 C 223.16375,513.7875 231.625,527.74 251.92,527.74 c 19.45375,0 31.71875,-7.60975 31.71875,-37.21 l 0,-201.3 59.20375,0 0,202.1375 c 0,61.32 -35.94375,89.23125 -88.385,89.23125 -47.36125,0 -74.8525,-24.52875 -88.8075,-54.13" />
@@ -52,8 +52,8 @@
     <div class="slogan">Southeast Asia's most influential<br/>web developer conference</div>
         <div class="overlay"></div>
         <div class="links">
-            <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" /></a>
-            <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" /></a><br/><br/><br/><br/>
+            <a href="https://microsoft.com" target="_blank"><img src="img/microsoft.png" /></a>
+            <a href="https://braintreepayments.com" target="_blank"><img src="img/braintree.png" /></a><br/><br/><br/><br/>
         </div>
 	</div>
 	</section>
@@ -339,7 +339,7 @@
                 </p>
                 <p>
                   Hamzeen is a software engineer and a practitioner of agile with expertise on Java, PHP, JS, C++, Computer Vision, & Signal Processing. He holds a bachelor's degree in Software Engineering from University of Westminster, London & currently employed at Virtusa. Now he counts over 5 years of experience in Design & Development of Commercial as well as Research-Oriented applications.<br/>
-                  His special interests include ubiquitous computing, augmented reality, physical computing, generative art, design patterns & tangible interfaces. During leisure, he enjoys reading, blogging or playing table tennis & he thinks 'math is art in disguise'. More about him can be found at <a href="http://hamzeen.github.io" target="_blank">hamzeen.github.io</a>
+                  His special interests include ubiquitous computing, augmented reality, physical computing, generative art, design patterns & tangible interfaces. During leisure, he enjoys reading, blogging or playing table tennis & he thinks 'math is art in disguise'. More about him can be found at <a href="https://hamzeen.github.io" target="_blank">hamzeen.github.io</a>
                 </p>
               </div>
               <div class="speaker">
@@ -401,11 +401,11 @@
 
     <section id="sponsors">
       <p class="links">
-            <a href="http://microsoft.com" target="_blank"><img src="img/microsoft.png" style="width: 150px" /></a>
-            <a href="http://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="width: 135px" /></a><br/><br/><br/>
+            <a href="https://microsoft.com" target="_blank"><img src="img/microsoft.png" style="width: 150px" /></a>
+            <a href="https://braintreepayments.com" target="_blank"><img src="img/braintree.png" style="width: 135px" /></a><br/><br/><br/>
             <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px; opacity: .6;" /></a>
             <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
-            <a href="http://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
+            <a href="https://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
             <a href="http://flowhero.io" target="_blank"><img src="img/flowhero.png" style="top: -1px;" /></a>
             <a href="http://tradegecko.com" target="_blank"><img src="img/tradegecko.png" /></a>
             <a href="http://myrepublic.com.sg" target="_blank"><img src="img/myrepublic.png" /></a>
@@ -421,7 +421,7 @@
             <a href="https://themeetapp.com" target="_blank"><img src="img/meetapp.png" style="margin: 3px 0 0" /></a>
         </p>
 
-        <form id="subscribeForm" action="http://2012.jsconf.asia/addsubscriber.php" method="get">
+        <form id="subscribeForm" action="https://2012.jsconfasia.com/addsubscriber.php" method="get">
           <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
           <div class="msg"><span></span></div>
         </form>
@@ -430,18 +430,18 @@
 
     <section id="footer">
       <p>
-        <a href="http://2015.devfest.asia"><img src="http://2015.devfest.asia/images/logo.png" height="100" alt="Singapore DevFest.Asia 2014"/></a>
+        <a href="https://2015.devfest.asia"><img src="https://2015.devfest.asia/images/logo.png" height="100" alt="Singapore DevFest.Asia 2014"/></a>
       </p>
       <p>
         <br/>
         JSConf.Asia 2015 Singapore is part of Asia’s<br/> first community organized web developer festival.<br/><br/>
         <a href="http://jsconf.com">JSConf around the world</a><br/><br/>
-        Check out what we’ve done in the past:<br/><a href="http://2014.jsconf.asia" target="_blank">JSConf.Asia 2014</a>
-         | <a href="http://2013.jsconf.asia" target="_blank">JSConf.Asia 2013</a>
-         | <a href="http://2012.jsconf.asia" target="_blank">JSCamp.Asia 2012</a><br/><br/><br/>
+        Check out what we’ve done in the past:<br/><a href="https://2014.jsconf.asia" target="_blank">JSConf.Asia 2014</a>
+         | <a href="https://2013.jsconf.asia" target="_blank">JSConf.Asia 2013</a>
+         | <a href="https://2012.jsconf.asia" target="_blank">JSCamp.Asia 2012</a><br/><br/><br/>
         A Nerdherd Pte. Ltd. event<br/>
-        <a href="http://2015.devfest.asia/terms-and-conditions.html">Terms &amp; Conditions</a><br/>
-        <a href="http://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a>
+        <a href="https://2015.devfest.asia/terms-and-conditions.html">Terms &amp; Conditions</a><br/>
+        <a href="https://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a>
       </p>
     </section>
 
