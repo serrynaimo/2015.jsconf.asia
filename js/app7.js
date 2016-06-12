@@ -1,4 +1,3 @@
-console.log('Back to the brackets, baby!');
 
 $("#subscribeForm").ajaxForm({
 	url: "https://2012.jsconf.asia/addsubscriber.php",
